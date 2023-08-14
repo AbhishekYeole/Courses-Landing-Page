@@ -1,0 +1,2051 @@
+/* .NavBar{
+  display: flex;
+} */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat !important;
+}
+
+#MainNavBarContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #26335D;
+  border: none;
+}
+
+#NavBarContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100%;
+  height: auto;
+  padding-top: 1.0595%;
+  flex-shrink: 0;
+}
+
+.NavBrandLogoCol{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.NavBrandLogoH3{
+  margin-bottom: 0;
+  width: auto;
+  height: auto;
+  color: #FFF;
+  /* h3 */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.1px;
+}
+
+.NavMenuCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: auto;
+  height: auto;
+}
+
+.MenuContainer h5{
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #FFF;
+  text-align: center;
+  /* link */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+
+.NavBtnCol{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.RightNavSectionContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 4.808%;
+}
+
+.RightNavSectionContainer h5{
+  margin-bottom: 0;
+  color: #FFF;
+  text-align: right;
+
+  /* btn-text */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.2px;
+}
+
+.NavLastBtn{
+  display: flex !important;
+  width: auto;
+  height: auto;
+  padding: 3.789% 6.315% !important;
+  align-items: center;
+  gap: 15px;
+  border-radius: 5px;
+  background: #FF6551 !important;
+  border: solid #FF6551 !important;
+}
+
+#NavLastBtnLogin{
+  background: transparent !important;
+  color: #FF6551;
+  gap: 0 !important;
+}
+
+
+
+                                              /* Cover Page CSS */
+
+
+
+
+#MainCoverContainer{
+  background-color: #26335D;
+  color: white;
+  width: auto;
+  height: auto;
+}
+
+.CoverPageImgCol{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#CoverImgContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 11.926% 4.001% 11.5% 4.023%;
+  flex-shrink: 0;
+}
+
+.CoverImgBox{
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  position: relative;
+}
+
+#Coverimg1{
+  position: absolute;
+  margin: 0 !important;
+  border-radius: 34.377px;
+  width: 66.3%;
+  flex-shrink: 0;
+
+}
+
+#Coverimg2{
+  margin-left: 28.7%;
+  margin-bottom: 10.38%;
+  width: 71.94%;
+  flex-shrink: 0;
+  border-radius: 34.377px;
+  background: lightgray 50%  #C4C4C4;
+}
+
+.CoverPageTextCol{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.CoverPageTextMainContainer{
+  display: flex;
+  width: 83.285% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-shrink: 0;
+  margin-right: 1.746% !important;
+}
+
+.CoverPageTextMainContainer h5{
+  margin-bottom: 0;
+  color: #FF6551;
+
+  /* h5 */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+}
+.CoverPageTextMainContainer h1{
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  color: #FFF;
+  /* h1 */
+  font-family: Montserrat;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 137.931% */
+  letter-spacing: 0.2px;
+}
+.CoverPageTextMainContainer h4{
+  margin-bottom: 0;
+  color: #FFF;
+  /* h4 */
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+}
+
+.CoverPageTextBtnMainContainer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.746%;
+  width: 100%;
+}
+
+.GetQuoteNowBtn{
+  display: flex;
+  padding: 2.618% 6.982%;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px !important;
+  color: #FFF;
+  background: #FF6551 !important;
+  border: 1px solid #FF6551 !important;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.2px;
+}
+
+.LearnMoreBtn{
+  display: flex;
+  padding: 2.618% 6.982%;
+  border-radius: 5px !important;
+  border: 1px solid #FF6551 !important;
+  background-color: transparent !important;
+  color: #FF6551 !important;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.2px;
+}
+
+
+
+                                          /* Cover Page2 CSS */
+
+
+
+
+.CoverPage2OuterBox{
+  display: flex;
+  padding: 0px 13.542% !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.CoverPage2InnerBox{
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 10.667% 0% !important;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 70px;
+  flex-shrink: 0;
+}
+
+.HorizontalDiv{
+  width: 33.335%;
+  height: 2px;
+  background-color: #E74040;
+}
+
+.Page2CardRow{
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* flex-flow: column; */
+  align-items: flex-start;
+  width: 100%;
+  gap: 2.85%;
+}
+
+.CardFile{
+  display: flex;
+  /* width: 240px; */
+  width: 28%;
+  /* height: 292px; */
+  padding-top: 4.572%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CardMainDiv:hover{
+  background-color: #FF6551;
+  color: #FFF !important;
+  
+}
+
+.CardMainDiv .CardMainDivStack>p:hover{
+  background-color: #FF6551;
+  color: #FFF !important;
+  
+}
+
+.CardMainDiv{
+  display: flex;
+  flex-wrap: wrap;
+  width: 95.814%;
+  padding: 14.583% 16.665%;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+
+.Cardimgdiv{
+  display: flex;
+  padding: 22px 19px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.CardH5Div{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+  margin-bottom: 0;
+}
+
+.Page2CardParagraphText{
+  display: flex;
+  flex-wrap: wrap;
+  color:  #737373;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  /* paragraph */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+}
+
+.CardFile3{
+  padding-top: 0px;
+  /* background-color: #FF6551; */
+  /* color: white !important; */
+  padding-bottom: 4.572%;
+}
+
+#Page3Card3Paragraph{
+  /* color: #FFF !important; */
+}
+
+#CardMainDiv3{
+  /* background-color: #FF6551; */
+}
+
+.CardFile1{
+  padding-top: 0px;
+  padding-bottom: 4.572%;
+}
+
+.CardMainDivStack{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#BlackboardsDiv{
+  display: flex;
+  /* padding: 22px 19px; */
+  padding: 14.67% 12.67%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  background-color: #FFF;
+}
+
+#TelescopeDiv{
+  display: flex;
+  padding: 14.67% 12.67%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  background-color: #DDEEFE;
+}
+
+#CapDiv{
+  display: flex;
+  padding: 14.67% 12.67%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#divideColor{
+  /* background-color: #FFF; */
+}
+
+#BagDiv{
+  display: flex;
+  align-items: center !important;
+  padding: 14.67% 12.67%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  background-color: #B6D7FF;
+}
+
+
+
+                                            /* Page 4 CSS */
+
+
+.CoverPage4OuterBox{
+  padding: 0px 13.542%!important;
+  margin: 0px 0px !important;
+  background-color: #26335D;
+  width: auto;
+  height: auto;
+}
+
+.MainPage4Div{
+  padding: 15.2381% 0%;
+  display: flex;
+  justify-content: space-between !important;
+  width: 100%;
+  align-items: center;
+  /* margin: 0px 0px !important; */
+}
+
+#Page4Image{
+  width: 51.810%;
+  height: 56.403%;  
+}
+
+.Page4TextOuterBox{
+  display: flex;
+  width: 36.286%;
+  height: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+  flex-shrink: 0;
+}
+
+.Page4TextBoxLearnMoreBox{
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: auto;
+  gap: 10px;
+}
+
+.Page4TextBoxLearnMoreH6 {
+  color: #FF6551;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+
+.FixedDiv{
+  width: 24.672%;
+  height: 7px;
+  background-color: #E74040;
+}
+
+.Page4TextBoxH2Box {
+  color:  #FFF;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+/* h2 */
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  letter-spacing: 0.2px;
+  margin-bottom: 0px;
+}
+
+.Page4TextBoxParagraph {
+  color: #FFF;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+}
+
+.CardMainDivStack>p{
+  color: gray;
+}
+
+
+
+
+
+                                            /* Page 3 CSS */
+
+
+.CoverPage3OuterBox{
+  display: flex;
+  width: 100%;
+  padding: 0px 13.542% 1.667% 13.542%;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+}
+
+.CoverPage3InnerBox{
+  display: flex;
+  width: 100%;
+  padding: 10.667% 0%;
+  flex-direction: column;
+  align-items: center;
+  gap: 112px;
+  flex-shrink: 0;
+}
+
+.CoverPage3TextBoxRow1{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.CoverPage3TextBox{
+  display: flex;
+  justify-content: start;
+  width: 63.884%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.CoverPageTextBox1 {
+  color: #FF6551;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  /* h6 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+
+.CoverPageTextBox2 {
+  color: #252B42;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  /* h2 */
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  letter-spacing: 0.2px;
+}
+
+.CoverPageTextBox3 {
+  color: #737373;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  /* paragraph */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+}
+
+.CoverPage3TextBoxRow2{
+  display: flex;
+  align-items: flex-start;
+  gap: 2.86%;
+}
+
+.TextBoxRow2Col{
+  display: flex;
+  /* flex-wrap: wrap;
+  flex-flow: column; */
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  position: relative;
+}
+
+.Row2Col1Img{
+  /* width: 238px;
+  height: 300px; */
+  width: 100%;
+  flex-shrink: 0;
+  background:  lightgray -266.495px 0px / 242.745% 100% no-repeat;
+}
+
+.Row2ColfloatImg {
+  display: inline-flex;
+  padding: 0px 4.17%;
+  align-items: center;
+  border-radius: 3px;
+  background:  #E74040;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 3.4%;
+  left: 7.7%;
+
+  /* light-drop-shadow */
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.Row2ColfloatImg h6{
+  margin-bottom: 0;
+  color: #FFF;
+  text-align: center;
+
+  /* h6 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+
+.Row2ColFloatBtnBox {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 37.5%;
+  left: 21.5%; 
+}
+
+.Row2ColFloatBtn{
+  display: flex;
+   width: 40px;
+  height: 40px;
+  /* padding: 10px;  */
+  /* width: 70%;
+  height: 19%; */
+  padding: 12.5%;
+  justify-content: center;
+  align-items: center;
+  background: #FFF;
+  border-radius: 44.786px;
+}
+
+.FloatBtnIcon{
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.CardTextBox{
+  display: flex;
+  /* padding: 25px 25px 35px 25px; */
+  padding: 10.42% 10.42% 14.585% 10.42%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: auto;
+  height: auto;
+}
+.CardTextRow1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.CardRow1Text p{
+  width: auto;
+  height: auto;
+  color:  #FF6551;
+    
+    /* link */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+  margin-bottom: 0;
+}
+
+.CardRow1Star{
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  gap: 5px;
+  border-radius: 20px;
+  background: #26335D;
+  width: auto;
+  height: auto;
+}
+
+.StarImg{
+  width: 16px;
+  height: 16px;
+}
+
+.StarRating{
+  color: #FFF;
+  width: auto;
+  height: auto;
+  /* small */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.2px;
+}
+.CardRow2TextH5 {
+    color: #252B42;
+    width: auto;
+    height: auto;
+
+    /* h5 */
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+    margin-bottom: 0;
+  }
+
+  .CardRow3TextParagraph {
+    color: #737373;
+    width: auto;
+    height: auto;
+
+    /* paragraph */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+    margin-bottom: 0;
+  }
+
+  .CardRow4Sales{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: auto;
+    height: auto;
+  }
+
+  .downloadicon{
+    width: 16px;
+    height: 16px;
+  }
+
+  .SalesText {
+    color: #737373;
+    width: auto;
+    height: auto;
+
+    /* h6 */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+    margin-bottom: 0;
+  }
+
+  .CardRow5Prices{
+    display: flex;
+    padding: 5px 3px;
+    align-items: flex-start;
+    gap: 5px;
+    width: auto;
+    height: auto;
+  }
+
+.leftPriceH5 h5{
+  color: #BDBDBD;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+  
+  /* h5 */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.rightPriceH5 h5{
+  color: #2435A1;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  /* h5 */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.CardRow6Button{
+  display: flex;
+  /* padding: 10px 20px; */
+  padding: 5.265% 10.53%;
+  align-items: center;
+  gap: 10px;
+  border-radius: 37px;
+  border: 1px solid #FF6551;
+  width: auto;
+  height: auto;
+}
+
+.Row6BtnTextH6 h6{
+  color: #FF6551;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  /* h6 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+
+.Row6BtnArrow{
+  width: 9.143px;
+  height: 16px;
+}
+
+
+                                       /* Page 5 CSS */
+
+.CoverPage5OuterBox{
+  padding: 0% 13.542% !important;
+  margin: 0px 0px !important;
+  background-color: #FFF;
+  width: auto;
+  height: auto;
+}
+
+.MainPage5Div{
+  display: flex;
+  width: 100%;
+  padding: 15.2385% 0%;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.Card5OuterContainer{
+  display: flex;
+  padding: 29px 1.05% 20px 0.6666%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  /* accentued-drop-shadow */
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+#Card5MiddleContainer{
+  position: relative;
+}
+
+.Card5MiddleNewLogo{
+  display: inline-flex;
+  padding: 29px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 52px;
+  background: #E77C40;
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 80%;
+  bottom: 90.3%;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.Card5MiddleNewLogo h3{
+  color: #FFF;
+  text-align: center;
+  width: 57px;
+  height: auto;
+  margin-bottom: 0;
+
+  /* h3 */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.1px;
+}
+
+.Page5CardMainDiv{
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.87%;  
+
+}
+
+.Card5Container{
+  display: flex;
+  padding: 50px 12.82%;    
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 29px;
+}
+
+.Card5IconBox{
+  display: flex;
+  height: 96px;
+  padding: 24px 23px 24px 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+  background: #2435A1;
+}
+
+.Card5IconImg{
+  width: 48px;
+  height: 48px;
+}
+
+.Card5Row2 {
+  color: #252B42;
+  width: 64px;
+  height: auto;
+  margin-bottom: 0;
+
+  /* h3 */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.1px;
+}
+
+.CardRow3{
+  color: #737373;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  /* h6 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+
+.Card5PriceBox{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Card5PriceInNumberRow{
+  color: #FF6551;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  /* h2 */
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  letter-spacing: 0.2px;
+}
+
+.Card5PerMonthRow{
+  color: #8EC2F2;
+  height: auto;
+  width: auto;
+  margin-bottom: 0;
+
+
+  /* h6 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+
+.Card5Row5{
+  color: #737373;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  /* paragraph */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+}
+
+.Card5Btn{
+  display: flex;
+  padding: 15px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 5px;
+  background-color: #FF6551 !important;
+  border-color: #FF6551 !important;
+  width: 100%;
+}
+
+.Card5BottomPartBox{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  width: auto;
+  height: auto;
+}
+
+.Card5BottomPartRow{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Card5BottomPartRowGreenImgBox{
+  display: flex;
+  width: 32px;
+  height: 32px;
+  padding: 10px 8px 11px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+  background: #2DC071;
+}
+
+.Card5BottomPartRowGreyImgBox{
+  display: flex;
+  width: 32px;
+  height: 32px;
+  padding: 10px 8px 11px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+  background: #BDBDBD;
+}
+
+.Card5BottomPartH6Text {
+  color: #252B42;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  /* h6 */
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+
+
+                                          /* Page 6 CSS */
+
+
+.MainPage6Div{
+  display: flex;
+  width: 100%;
+  padding: 15.24% 0%;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 96px;
+}
+
+.Page6RowMainContainer{
+  display: flex;
+  align-items: flex-start;
+  gap: 2.86%;
+  width: 100%;
+}
+
+.Page6CardMainContainer{
+  display: flex;
+  padding: 25px 2.381% 0px 2.381%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  background: #FFF;
+  width: 100%;
+  height: auto;
+
+  /* box-shadow: 10px 13px 19px 10px rgba(0, 0, 0, 0.07); */
+}
+
+.Page6CardImgBox{
+  width: 27.828%;
+  height: 36.16%;
+  flex-shrink: 0;
+  background:  lightgray 50% / cover no-repeat;
+}
+
+.Page6CardTextBox{
+  display: flex;
+  padding: 6.523%;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  align-self: stretch;
+  width: 100%;
+  height: auto;
+}
+
+.Page6CardTextParagraph{
+  color: #737373;
+  text-align: center;
+  width: 75.004%;
+  height: auto;
+  margin-bottom: 0;
+
+  /* paragraph */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+}
+
+.Page6CardStarRatingBox{
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  width: auto;
+  height: auto;
+}
+
+.Page6CardBottomBox{
+  display: flex;
+  padding: 0px 25px;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  width: auto;
+  height: auto;
+}
+
+.Page6CardBottomH5{
+  color: var(--text-color, #252B42);
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  /* h5 */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.Page6CardBottomH6{
+  color: var(--second-text-color, #737373);
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  /* h6 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+
+                              /* Page 7 CSS */
+
+.Page7OuterBox{
+  display: flex;
+  width: 100%;
+  height: 41.3%;
+  padding: 0% 13.5425% 0% 13.542%;
+  justify-content: center;
+  align-items: center;
+  background: #26335D;
+}
+
+.MainPage7Div{
+  display: flex;
+  flex-direction: column;
+  padding: 15.24% 0% 15.24% 0%;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 80px;
+}
+
+.MainPage7Text{
+  display: flex;
+  width: 47.9875%;
+  /* width: auto; */
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.MainPage7TextH6{
+  color: #FF6551;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+  
+  /* h6 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+
+.MainPage7TextH3 {
+  color: #FFF;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  /* h2 */
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  letter-spacing: 0.2px;
+}
+
+.MainPage7TextParagraph{
+  color: #FFF;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  /* paragraph */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+}
+
+.Page7Form.input-group{
+  display: flex;
+  width: 688px;
+  height: 58px;
+  justify-content: center;
+  align-items: center;
+}
+
+#Forminputbox{
+  display: flex;
+  padding: 15px 0px 15px 20px;
+  align-items: center;
+  /* border-radius: 5px; */
+  border: 1px solid #E6E6E6;
+  background: #F9F9F9;
+}
+
+#button-addon2{
+  display: flex;
+  width: 117px;
+  height: 56px;
+  padding: 15px 22.5px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #E6E6E6;
+  background: #FF6551;
+  color: #FFF;
+  text-align: center;
+  /* font-family: Montserrat; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+  letter-spacing: 0.2px;
+}
+
+                                  /* Footer Page CSS */
+
+.FooterOuterContainer{
+  display: flex;
+  height: 272px;
+  padding: 0px 195px 0px 195px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  background-color: #FFF;
+}
+
+.FooterInnerContainer{
+  display: flex;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.FooterRowContainer{
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  gap: 30px;
+}
+
+.FooterCardMainBox{
+  display: flex;
+  width: auto;
+  min-width: 14.47%;
+  height: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.FooterCardTextH5{
+  color: #252B42;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  /* h5 */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.FooterCardSecondBox{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: auto;
+  height: auto;
+}
+
+.FooterCardLink{
+  color: #737373;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+
+  /* link */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+
+.FooterLastCardMainBox{
+  display: flex;
+  width: 37.20%;
+  height: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.FooterLastCardH5Text{
+  color: #252B42;
+  margin-bottom: 0;
+
+  /* h5 */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.FooterLastCardInnerBox{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.FooterLastCardRow{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#phoneIconImg{
+  width: 24px;
+  height: 24px;
+}
+
+#mapIconImg{
+  width: 24px;
+  height: 30px;
+}
+
+#messageIconImg{
+  width: 24px;
+  height: 26px;
+}
+
+.FooterLastCardRowH6{
+  color:#737373;
+  margin-bottom: 0px;
+
+  /* h6 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+
+
+                                          /* Footer Part2 CSS */
+
+.FooterPart2OuterContainer{
+  display: flex;
+  height: 74px;
+  padding: 0 13.542%;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  background: #FAFAFA;
+}
+
+.FooterPart2InnerContainer{
+  display: flex;
+  width: 100%;
+  padding: 2.381% 0;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.FooterPart2TextContainer{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 20.286%;
+}
+
+.FooterPart2TextInnerContainer{
+  display: flex;
+  width: 57.143%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.FooterPart2H6Text h6{
+  color: #737373;
+  margin-bottom: 0;
+  width: auto;
+  height: auto;
+
+  /* h6 */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+
+.FooterPart2LastOuterContainer{
+  display: flex;
+  width: 22.4762%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FooterPart2LastInnerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16.6%;
+  width: 47.46%;
+}
+
+#FacebookLogo{
+  width: 58%;
+}  
+
+#InstagramLogo{
+  width: 58%;
+} 
+
+#TwitterLogo{
+  width: 55%;
+} 
+
+
+
+@media screen and (max-width: 480px) {
+  
+  body{
+    line-height: 1.5 !important;
+  }
+
+
+                                              /* Page 1 Media */
+
+
+  #MainCoverContainer{
+    padding: 20px 0px !important;
+  }
+
+  .CoverMainPageRow{
+    width: 100%;
+    padding: 0px 12px;
+    margin: 0px !important;
+  }
+
+  .CoverPageTextMainContainer{
+    gap: 2px;
+    width: 98% !important;
+    margin-right: 0 !important;
+  }
+
+  .CoverPageTextMainContainer h1{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .CoverPageTextMainContainer h4{
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  .CoverPageTextMainContainer h5{
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  .CoverPageTextCol{
+    align-items: flex-start;
+    /* padding-left: 20px; */
+    padding: 0% !important;
+  }
+
+  .CoverPageTextMainContainer{
+    /* margin-left: 10px !important; */
+  }
+
+  .GetQuoteNowBtn{
+    padding: 6px;
+    margin: 3px 2px 0 0;
+    font-size: 6px;
+    line-height: 5px;
+    font-weight: 300 !important;
+  }
+
+  .LearnMoreBtn {
+    padding: 6px;
+    margin: 3px 2px 0 0;
+    font-size: 6px;
+    line-height: 5px;
+  }
+
+  #CoverImgContainer{
+    padding: 0 !important;
+  }
+
+  .CoverPageImgCol{
+    padding: 0% !important;
+  }
+
+  #Coverimg1{
+    border-radius: 6% !important;
+  }
+
+  #Coverimg2{
+    border-radius: 6% !important;
+  }
+
+
+
+                                          /* Page 2 Media */
+
+
+
+  .CoverPage2OuterBox{
+    padding: 20px 0px !important;
+    margin: 0;
+  }
+
+  .CoverPage2InnerBox{
+    padding: 0px 12px !important;
+    gap: 0;
+  }
+
+  .Page2CardRow{
+    display: block;
+  }
+
+  .CardFile{
+    width: 100%;
+    padding: 0;
+  }
+
+  .CardFile1{
+    padding: 0;
+  }
+
+  .CardMainDiv{
+    margin: 20px 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 2px 1px rgb(218, 216, 216);
+  }
+
+  .CardMainDivStack{
+    width: 100%;
+    gap: 0;
+  }
+
+  .Cardimgdiv{
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #BlackboardsDiv {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #TelescopeDiv{
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #CapDiv {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  #BagDiv{
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .CardH5Div{
+    font-size: 18px;
+    padding: 10px 0;
+    margin: 5px;
+    max-width: 138px;
+  }
+
+  .HorizontalDiv{
+    width: 138px;
+    padding: 1px 0px;
+  }
+
+  .Page2CardParagraphText{
+    padding: 10px 0;
+    margin: 0;
+    font-size: 14px;
+  }
+
+
+
+
+                                            /* Media Page4 */
+
+  .CoverPage4OuterBox{
+    padding: 20px 0 !important;
+  }
+
+  .MainPage4Div{
+    padding: 0px 12px !important;
+    /* align-items: flex-start; */
+  }
+
+  #Page4Image{
+    width: 49.5% !important;
+  }
+
+  .Page4TextOuterBox{
+    width: 48% !important;
+    gap: 4px;
+  }
+
+  .FixedDiv {
+    height: 2px;
+    width: 70%;
+  }
+
+  .Page4TextBoxH2Box{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .Page4TextBoxParagraph{
+    font-size: 8px;
+    line-height: 12px;
+  }
+
+  .Page4TextBoxLearnMoreBox{
+    gap: 4px;
+  }
+
+  .Page4TextBoxLearnMoreH6{
+    font-size: 8px;
+    line-height: 15px;
+  }
+
+  .Page4TextBoxLearnMoreBox img{
+    width: 5px;
+    height: 12px;
+  }
+
+
+                                                /* Page 5 Media */
+
+
+  .CoverPage5OuterBox {
+    padding: 20px 0px !important;
+  }
+
+  .MainPage5Div{
+    padding: 0px 12px;
+    gap: 10px;
+    height: auto;
+  }
+
+  .Page5CardMainDiv {
+    height: auto;
+  }
+
+  .CoverPage3TextBoxRow1{
+    padding: 10px;
+    max-width: 500px;
+  }
+
+  .CoverPage3TextBox {
+    width: 100%;
+    gap: 0px;
+  }
+
+  .CoverPageTextBox1{
+    padding: 5px 0px;
+    font-size: 12px;
+    margin: 0;
+    line-height: 10px;
+  }
+
+  .CoverPageTextBox2{
+    padding: 5px 0px;
+    font-size: 20px;
+    margin: 0; 
+    line-height: 10px;  
+  }
+
+  .CoverPageTextBox3{
+    padding: 5px 0px;
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.5;
+    color: gray;
+  }
+
+  .Card5OuterContainer{
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .Card5Container{
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    width: 100%;
+  }
+
+  .Card5IconBox{
+    padding: 10px 10px;
+    border-radius: 55%;
+    height: auto;
+    font-size: 20px;
+  }
+
+  .Card5IconImg{
+    width: 20px;
+    height: 20px;
+    line-height: 1.5;
+  }
+
+  .Card5Row2{
+    padding: 15px 0;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .CardRow3{
+    padding: 5px 0;
+    font-size: 12px;
+    color: gray;
+    line-height: 1.5;
+  }
+
+  .Card5PriceBox{
+    padding: 5px 0;
+    font-size: 23px;
+    line-height: 1.5;
+  }
+
+  .Card5PriceInNumberRow {
+    font-size: 23px;
+    line-height: 1.5;
+  }
+
+  .Card5PerMonthRow{
+    font-size: 12px;
+  }
+
+  .Card5Row5{
+    padding: 10px 0;
+    margin: 0;
+    color: gray;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .Card5Btn{
+    padding: 8px 0px;
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+
+  .Card5BottomPartBox{
+    gap: 5px;
+    display: flex;
+    padding: 10px 5px;
+    margin: 0;
+  }
+
+  .Card5BottomPartRow{
+    gap: 0px;
+  }
+
+  .Card5BottomPartRowGreenImgBox{
+    width: 19px;
+    height: 19px;
+    padding: 5px 10px;
+  }
+
+  .Card5BottomPartRowGreyImgBox{
+    width: 19px;
+    height: 19px;
+    padding: 5px 10px;
+  }
+
+  .Card5BottomPartH6Text{
+    font-size: 12px;
+    padding: 5px 5px;
+    line-height: 1.5;
+  }
+
+  .Card5MiddleNewLogo{
+    display: none;
+  }
+
+
+                                              /* Footer Part2 Media  */
+
+
+  .FooterPart2OuterContainer{
+      padding: 20px 0px;
+      height: auto;
+  }
+
+  .FooterPart2InnerContainer{
+    padding: 0px 12px;
+  }
+
+  .FooterPart2TextInnerContainer{
+    width: 100%;
+    
+  }
+
+  .FooterPart2TextInnerContainer h6{
+    font-size: 11px;
+    line-height: 1.5;
+    color: gray;
+  }
+
+  .FooterPart2TextContainer{
+    gap: 20px;
+    display: block;
+  }
+
+  .FooterPart2LastOuterContainer{
+    width: 36%;
+    align-items: flex-start;
+  }
+
+  .FooterPart2LastInnerContainer{
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 8px;
+  }
+
+
+
+
+}
+
+
+
+#FirstCarosel {
+  color: #E74040;
+}
+
+.carousel-indicators {
+  /* background-color: #2DC071; */
+  
+}
+
+.carousel-indicators button{
+  background-color: #252B42 !important;
+}
+                                         
