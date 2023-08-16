@@ -11,7 +11,7 @@ function CoverPageTextBoxCard(props) {
 
                     <h2 className="CoverPageTextBox2">{ props.h2Text }</h2>
 
-                    <p className="CoverPageTextBox3"> Problems trying to resolve the conflict between <br /> the two major realms of Classical physics: Newtonian mechanics</p>
+                    <p className="CoverPageTextBox3"> Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
 
                 
             </div>

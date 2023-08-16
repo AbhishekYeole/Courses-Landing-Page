@@ -1,7 +1,6 @@
 import React from "react";
 import { Col } from "react-bootstrap";
 import Image from 'react-bootstrap/Image';
-import HorizontalDiv from "./HorizontalDiv";
 
 function CardFile(props) {
     return (
@@ -15,11 +14,9 @@ function CardFile(props) {
 
                     <h5 className="CardH5Div">{ props.FirstHeading }</h5>
 
-                    <HorizontalDiv
-                        dividerColor={props.dividerColor}
-                    />
+                    <div className="HorizontalDiv"></div>
 
-                     <p id={props.paragraphId} className="Page2CardParagraphText">The gradual accumulation of information about </p>
+                    <p className="Page2CardParagraphText">The gradual accumulation of information about </p>
             </div>
         </Col>
 

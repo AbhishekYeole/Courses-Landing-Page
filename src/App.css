@@ -87,9 +87,9 @@
   display: flex;
   flex-direction: row;
   gap: 5%;
-  justify-content: flex-start;
+  justify-content: end;
   align-items: center;
-  padding-left: 4.808%;
+  /* padding-left: 4.808%; */
 }
 
 .RightNavSectionContainer h5{
@@ -110,7 +110,7 @@
   display: flex !important;
   width: auto;
   height: auto;
-  padding: 3.789% 6.315% !important;
+  padding: 2.231% 4.461% !important;
   align-items: center;
   gap: 15px;
   border-radius: 5px;
@@ -325,17 +325,32 @@
   align-items: center;
 }
 
-.CardMainDiv:hover{
+.CardMainDiv:hover .Page2CardParagraphText{
   background-color: #FF6551;
   color: #FFF !important;
   
 }
 
-.CardMainDiv .CardMainDivStack>p:hover{
+.CardMainDiv:hover .Cardimgdiv{
+  background-color: white;
+}
+
+.CardMainDiv:hover .HorizontalDiv{
+background-color: white;
+}
+
+.CardMainDiv:hover {
   background-color: #FF6551;
   color: #FFF !important;
   
 }
+
+
+
+/* .CardMainDivStack:hover{
+  background-color: #FF6551;
+  color: #FFF !important;
+} */
 
 .CardMainDiv{
   display: flex;
@@ -369,7 +384,7 @@
 .Page2CardParagraphText{
   display: flex;
   flex-wrap: wrap;
-  color:  #737373;
+  color: gray;
   width: auto;
   height: auto;
   margin-bottom: 0;
@@ -381,6 +396,7 @@
   font-weight: 400;
   line-height: 20px; /* 142.857% */
   letter-spacing: 0.2px;
+  /* pointer-events: inherit; */
 }
 
 .CardFile3{
@@ -408,6 +424,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
+  /* pointer-events: inherit; */
 }
 
 #BlackboardsDiv{
@@ -551,9 +568,6 @@
   letter-spacing: 0.2px;
 }
 
-.CardMainDivStack>p{
-  color: gray;
-}
 
 
 
@@ -701,8 +715,8 @@
   align-items: flex-start;
   gap: 10px;
   position: absolute;
-  top: 37.5%;
-  left: 21.5%; 
+  top: 38.5%;
+  left: 20.5%; 
 }
 
 .Row2ColFloatBtn{
@@ -1280,7 +1294,13 @@
   letter-spacing: 0.2px;
 }
 
+
+
+
+
                               /* Page 7 CSS */
+
+
 
 .Page7OuterBox{
   display: flex;
@@ -1363,7 +1383,7 @@
 
 .Page7Form.input-group{
   display: flex;
-  width: 688px;
+  width: 65.525%;
   height: 58px;
   justify-content: center;
   align-items: center;
@@ -1380,7 +1400,7 @@
 
 #button-addon2{
   display: flex;
-  width: 117px;
+  /* width: 117px; */
   height: 56px;
   padding: 15px 22.5px;
   justify-content: center;
@@ -1624,6 +1644,48 @@
   }
 
 
+
+  .navbar{
+    background-color: #26335D !important;
+    padding: 8px 10px !important;
+  }
+
+  .navbar-brand{
+    color: #FFF !important;
+  }
+
+  .NavLastBtn{
+    gap: 0;
+    font-size: 8px !important;
+    line-height: 1.5;
+    padding: 5px !important;
+  }
+
+  .navbar-toggler{
+    border: none !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .nav-link{
+    color: white !important;
+  }
+
+  .RightNavSectionContainer{
+    justify-content: start;
+  }
+
+  .--bs-navbar-toggler-icon-bg{
+    background-image: url(https://icons8.com/icon/120374/menu) !important;
+  }
+
+  /* .navbar-toggler-icon{
+    background-image: url(https://icons8.com/icon/120374/menu) !important;
+  } */
+
+
+
+
                                               /* Page 1 Media */
 
 
@@ -1635,27 +1697,29 @@
     width: 100%;
     padding: 0px 12px;
     margin: 0px !important;
+    display: inline-block !important;
   }
 
   .CoverPageTextMainContainer{
-    gap: 2px;
-    width: 98% !important;
+    gap: 5px;
+    width: 95% !important;
     margin-right: 0 !important;
+    padding: 5px 5px !important;
   }
 
   .CoverPageTextMainContainer h1{
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 1.5;
   }
 
   .CoverPageTextMainContainer h4{
-    font-size: 8px;
-    line-height: 10px;
+    font-size: 10px;
+    line-height: 1.5;
   }
 
   .CoverPageTextMainContainer h5{
-    font-size: 8px;
-    line-height: 10px;
+    font-size: 11px;
+    line-height: 1.5;
   }
 
   .CoverPageTextCol{
@@ -1664,31 +1728,30 @@
     padding: 0% !important;
   }
 
-  .CoverPageTextMainContainer{
-    /* margin-left: 10px !important; */
-  }
-
   .GetQuoteNowBtn{
-    padding: 6px;
+    padding: 5px;
     margin: 3px 2px 0 0;
-    font-size: 6px;
-    line-height: 5px;
-    font-weight: 300 !important;
+    font-size: 9px;
+    line-height: 1.5;
   }
 
   .LearnMoreBtn {
-    padding: 6px;
+    padding: 5px;
     margin: 3px 2px 0 0;
-    font-size: 6px;
-    line-height: 5px;
+    font-size: 9px;
+    line-height: 1.5;
   }
 
   #CoverImgContainer{
-    padding: 0 !important;
+    padding: 8px 0px !important;
   }
 
   .CoverPageImgCol{
     padding: 0% !important;
+  }
+
+  .CoverImgBox{
+    margin: 10px 0px;
   }
 
   #Coverimg1{
@@ -1732,6 +1795,7 @@
     margin: 20px 10px;
     padding: 20px;
     box-shadow: 1px 1px 2px 1px rgb(218, 216, 216);
+    width: 85%;
   }
 
   .CardMainDivStack{
@@ -1740,31 +1804,31 @@
   }
 
   .Cardimgdiv{
-    background-color: transparent;
+   
     padding: 10px;
     border-radius: 10px;
   }
 
   #BlackboardsDiv {
-    background-color: transparent;
+    background-color: white;
     padding: 10px;
     border-radius: 10px;
   }
 
   #TelescopeDiv{
-    background-color: transparent;
+    background-color: white;
     padding: 10px;
     border-radius: 10px;
   }
 
   #CapDiv {
-    background-color: transparent;
+    background-color: white;
     padding: 10px;
     border-radius: 10px;
   }
 
   #BagDiv{
-    background-color: transparent;
+    background-color: white;
     padding: 10px;
     border-radius: 10px;
   }
@@ -1788,6 +1852,90 @@
   }
 
 
+
+
+                                            /* Page 3 Media */
+
+
+  
+  .CoverPage3OuterBox {
+    padding: 20px 0px;
+  }
+
+
+  .CoverPage3InnerBox{
+    padding: 0px 12px;
+    gap: 0;
+  }
+
+  .TextBoxRow2Col{
+    padding: 20px 0;
+    margin: 0 20px;
+  }
+
+  .Row2ColfloatImg{
+    position: absolute;
+    top: 6.4%;
+    left: 7.7%;
+  }
+
+  .Row2ColFloatBtnBox {
+    position: absolute;
+    top: 44.5%;
+    left: 23.5%;
+  }
+
+  .CardTextBox{
+    padding: 0;
+    gap: 0;
+  }
+
+  .CardTextRow1 {
+    display: flex;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  .CardRow1Text p{
+    padding: 5px 10px;
+    line-height: 1.5;
+  }
+
+  .CardRow2TextH5{
+    padding: 5px 10px;
+    line-height: 1.5;
+  }
+
+  .CardRow3TextParagraph{
+    padding: 5px 10px;
+    line-height: 1.5;
+  }
+
+  .CardRow4Sales{
+    padding: 5px 10px;
+    line-height: 1.5;
+    font-size: 12px;
+  }
+
+  .SalesText{
+    line-height: 1.5;
+    font-size: 12px;
+  }
+
+  .CardRow5Prices{
+    padding: 5px 10px;
+    line-height: 1.5;
+    font-size: 12px;
+  }
+
+  .CardRow6Button{
+    padding: 3px 10px;
+    margin: 10px;
+    font-size: 12px;
+  }
+
+
+                                            
 
 
                                             /* Media Page4 */
@@ -1831,7 +1979,7 @@
 
   .Page4TextBoxLearnMoreH6{
     font-size: 8px;
-    line-height: 15px;
+    line-height: 1.5;
   }
 
   .Page4TextBoxLearnMoreBox img{
@@ -1876,14 +2024,14 @@
 
   .CoverPageTextBox2{
     padding: 5px 0px;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0; 
-    line-height: 10px;  
+    line-height: 1.5;  
   }
 
   .CoverPageTextBox3{
     padding: 5px 0px;
-    font-size: 12px;
+    font-size: 10px;
     margin: 0;
     line-height: 1.5;
     color: gray;
@@ -1990,6 +2138,189 @@
   }
 
 
+
+                                              /* Page 6 Media */
+
+
+  .MainPage6Div{
+    padding: 0px 12px !important;
+    gap: 0;
+  }
+
+  .Page6CardMainContainer{
+    padding: 10px 0px;
+  }
+
+  .Page6CardImgBox{
+    margin: 10px 0px;
+  }
+
+  .Page6CardTextBox{
+    padding: 0;
+    gap: 0;
+  }
+
+  .Page6CardTextParagraph{
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .Page6CardBottomH5{
+    padding: 5px 0px;
+  }
+
+  .Page6CardBottomH6{
+    margin-bottom: 20px;
+  }
+
+
+
+
+                                              /* Page 7 Media */
+
+
+
+  .Page7OuterBox{
+    padding: 20px 0px;
+    line-height: 1.5;
+  }
+
+  .MainPage7Div{
+    padding: 0px 12px;
+    gap: 0;
+  }
+
+  .MainPage7Text{
+    width: 100%;
+    gap: 0;
+    line-height: 1.5;
+  }
+
+  .MainPage7TextH6{
+    padding: 10px 0px;
+    font-size: 11px;
+    line-height: 1.5;
+  }
+
+  .MainPage7TextH3{
+    padding: 5px 0px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .MainPage7TextParagraph{
+    padding: 5px 0px;
+    font-size: 11px;
+    line-height: 1.5;
+  }
+
+  #Forminputbox{
+    padding: 5px;
+    margin: 20px 0px;
+    font-size: 10px;
+    line-height: 1.5;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+
+  #button-addon2{
+    padding: 5px;
+    margin: 20px 0px;
+    font-size: 11px;
+    height: 27px;
+    line-height: 1.5;
+  }
+
+
+
+                                            /* Footer Page Media */
+
+
+  .FooterOuterContainer{
+    padding: 20px 0px;
+    height: auto;
+  }
+
+  .FooterInnerContainer{
+    padding: 0px 20px;
+  }
+
+  .FooterRowContainer{
+    display: block;
+    gap: 0;
+  }
+
+  .FooterCardMainBox{
+    padding: 0px 12px;
+    gap: 0;
+  }
+
+  .FooterCardTextH5{
+    padding: 5px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .FooterCardSecondBox{
+    width: 100%;
+    padding: 5px 0px;
+    gap: 0;
+  }
+
+  .FooterCardLink{
+    padding: 3px 0px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .FooterLastCardMainBox{
+    width: 100%;
+    padding: 0px 12px;
+    gap: 0;
+  }
+
+  .FooterLastCardH5Text{
+    padding: 5px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .FooterLastCardInnerBox{
+    width: 100%;
+    padding: 5px 0px;
+    gap: 0;
+  }
+
+  .FooterLastCardRow{
+    padding: 5px 0px;
+    gap: 5px;
+  }
+
+  #phoneIconImg{
+    width: 16px;
+    height: 16px;
+  }
+
+  #mapIconImg{
+    width: 20px;
+    height: 20px;
+  }
+
+  #messageIconImg{
+    width: 16px;
+    height: 16px;
+  }
+
+  .FooterLastCardRowH6{
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+
+
                                               /* Footer Part2 Media  */
 
 
@@ -2041,11 +2372,33 @@
 }
 
 .carousel-indicators {
-  /* background-color: #2DC071; */
-  
+  margin-bottom: 0 !important;
+}
+
+.carousel-indicators [data-bs-target]{
+  width: 10px;
 }
 
 .carousel-indicators button{
-  background-color: #252B42 !important;
+  background-color: #FF6551 !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+}
+
+.carousel-control-prev {
+  display: none !important;
+}
+
+.carousel-control-prev-icon{
+  display: none !important;
+}
+
+.carousel-control-next{
+  display: none !important;
+}
+
+.carousel-control-next-icon{
+  display: none !important;
 }
                                          

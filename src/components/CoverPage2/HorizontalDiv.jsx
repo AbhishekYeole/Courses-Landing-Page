@@ -2,7 +2,7 @@ import React from "react";
 
 function HorizontalDiv(props) {
     return (
-        <div className="HorizontalDiv" id={props.dividerColor}></div>
+        <div className="HorizontalDiv"></div>
     );
 }
 

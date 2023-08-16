@@ -14,15 +14,15 @@ import MainFooterPart2 from './components/FooterPart2/MainFooterPart2';
 function App() {
   return (
     <div className="App">
-      {/* <NavBar /> */}
-      <Cover />
+      <NavBar />
+       <Cover />
       <MainPage2 />
-      {/* <MainPage3 /> */}
+      <MainPage3 />
       <MainPage4 />
       <MainPage5 />
-      {/* <MainPage6 /> */}
-      {/* <MainPage7 /> */}
-      {/* <FooterPage /> */}
+      <MainPage6 /> 
+      <MainPage7 />
+      <FooterPage />
       <MainFooterPart2 />
     </div>
   );
