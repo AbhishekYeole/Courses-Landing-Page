@@ -668,15 +668,16 @@ background-color: white;
   flex-flow: column; */
   flex-direction: column;
   align-items: flex-start;
-  align-self: stretch;
+  /* align-self: stretch; */
   position: relative;
 }
 
 .Row2Col1Img{
   /* width: 238px;
-  height: 300px; */
+    height: 300px;
+      */
   width: 100%;
-  flex-shrink: 0;
+  height: auto;
   background:  lightgray -266.495px 0px / 242.745% 100% no-repeat;
 }
 
@@ -689,7 +690,7 @@ background-color: white;
   width: auto;
   height: auto;
   position: absolute;
-  top: 3.4%;
+  top: 3.8%;
   left: 7.7%;
 
   /* light-drop-shadow */
@@ -1675,14 +1676,13 @@ background-color: white;
     justify-content: start;
   }
 
-  .--bs-navbar-toggler-icon-bg{
-    background-image: url(https://icons8.com/icon/120374/menu) !important;
-  }
+.navbar-toggler-icon {
+  background-image: url(./components/NavBar/icons8-hamburger-menu-30.png) !important;
+}
 
-  /* .navbar-toggler-icon{
-    background-image: url(https://icons8.com/icon/120374/menu) !important;
-  } */
-
+#JoinUsBtn {
+  width: 8px;
+}
 
 
 

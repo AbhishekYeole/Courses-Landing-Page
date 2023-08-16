@@ -5,21 +5,20 @@ import NavArrowRight from "./ NavArrowRight .png";
 
 function RightNavSection() {
     return (
+      <div className="RightNavSectionContainer">
+        <ButtonSection
+          btnName="Login"
+          class="NavLastBtn"
+          Id="NavLastBtnLogin"
+        />
 
-            <div className="RightNavSectionContainer" >
-                    <ButtonSection
-                        btnName="Login"
-                        class="NavLastBtn"
-                        Id="NavLastBtnLogin"
-                    />
-
-                    <ButtonSection
-                        btnName="Join US"
-                        class="NavLastBtn"
-                        btnImg={NavArrowRight}
-                    />
-            </div>
-
+        <ButtonSection
+          btnName="Join US"
+          class="NavLastBtn"
+          btnImg={NavArrowRight}
+          ImgId="JoinUsBtn"
+        />
+      </div>
     );
 }
 
