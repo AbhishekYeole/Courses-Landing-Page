@@ -1,5 +1,6 @@
 import React from "react";
-import "/Users/abhishek/Daily Practice/Project_Practice/Courses-Website/src/CSS/Form.css";
+
+import "../../CSS/Form.css";
 import { Col, Container, Image } from "react-bootstrap";
 import FacebookLogo from "../FooterPart2/FacebookLogo.svg";
 import InstagramLogo from "../FooterPart2/InstagramLogo.svg";

@@ -1,5 +1,5 @@
 import React from "react";
-import "/Users/abhishek/Daily Practice/Project_Practice/Courses-Website/src/CSS/Cart.css";
+import "../../CSS/Cart.css";
 import NavBar from "./NavBar";
 import MainFooterPart2 from "../FooterPart2/MainFooterPart2";
 import { Image, Table } from "react-bootstrap";
