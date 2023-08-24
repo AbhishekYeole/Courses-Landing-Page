@@ -1,0 +1,331 @@
+/* Cover Page2 CSS */
+
+
+.CoverPage2OuterBox {
+    display: flex;
+    padding: 0px 13.542% !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.CoverPage2InnerBox {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 10.667% 0% !important;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 70px;
+    flex-shrink: 0;
+}
+
+.HorizontalDiv {
+    width: 50%;
+    height: 2px;
+    background-color: #E74040;
+}
+
+.Page2CardRow {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-flow: column; */
+    align-items: flex-start;
+    width: 100%;
+    gap: 2.85%;
+}
+
+.CardFile {
+    display: flex;
+    /* width: 240px; */
+    width: 28%;
+    /* height: 292px; */
+    padding-top: 4.572%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CardMainDiv:hover .Page2CardParagraphText {
+    background-color: #FF6551;
+    color: #FFF !important;
+}
+
+.CardMainDiv:hover .Cardimgdiv {
+    background-color: white;
+}
+
+.CardMainDiv:hover .HorizontalDiv {
+    background-color: white;
+}
+
+.CardMainDiv:hover {
+    background-color: #FF6551;
+    color: #FFF !important;
+}
+
+.CardMainDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95.814%;
+    padding: 14.583% 16.665%;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.Cardimgdiv {
+    display: flex;
+    padding: 22px 19px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.CardH5Div {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.1px;
+    margin-bottom: 0;
+}
+
+.Page2CardParagraphText {
+    display: flex;
+    flex-wrap: wrap;
+    color: gray;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+
+    /* paragraph */
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 142.857% */
+    letter-spacing: 0.2px;
+}
+
+.CardFile3 {
+    padding-top: 0px;
+    padding-bottom: 4.572%;
+}
+
+.CardFile1 {
+    padding-top: 0px;
+    padding-bottom: 4.572%;
+}
+
+.CardMainDivStack {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#BlackboardsDiv {
+    display: flex;
+    padding: 14.67% 12.67%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+#TelescopeDiv {
+    display: flex;
+    padding: 14.67% 12.67%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #DDEEFE !important;
+}
+
+#CapDiv {
+    display: flex;
+    padding: 14.67% 12.67%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#BagDiv {
+    display: flex;
+    align-items: center !important;
+    padding: 14.67% 12.67%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #DDEEFE;
+}
+
+
+
+@media screen and (max-width: 480px) and (min-width:320px) {
+
+    /* Page 2 Media */
+
+
+
+    .CoverPage2OuterBox {
+        padding: 20px 0px !important;
+        margin: 0;
+    }
+
+    .CoverPage2InnerBox {
+        padding: 0px 12px !important;
+        gap: 0;
+    }
+
+    .Page2CardRow {
+        display: block;
+    }
+
+    .CardFile {
+        width: 100%;
+        padding: 0;
+    }
+
+    .CardFile1 {
+        padding: 0;
+    }
+
+    .CardMainDiv {
+        margin: 20px 10px;
+        padding: 20px;
+        box-shadow: 1px 1px 2px 1px rgb(218, 216, 216);
+        width: 80%;
+    }
+
+    .CardMainDivStack {
+        width: 100%;
+        gap: 0;
+    }
+
+    .Cardimgdiv {
+
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    #BlackboardsDiv {
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    #TelescopeDiv {
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    #CapDiv {
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    #BagDiv {
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .CardH5Div {
+        font-size: 18px;
+        padding: 10px 0;
+        margin: 5px;
+        max-width: 138px;
+    }
+
+    .HorizontalDiv {
+        width: 138px;
+        padding: 1px 0px;
+    }
+
+    .Page2CardParagraphText {
+        padding: 10px 0;
+        margin: 0;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 1023px) and (min-width:600px) {
+
+    /* Page 2 Media @768px */
+
+
+    .CoverPage2OuterBox {
+        padding: 30px 0px !important;
+    }
+
+    .CoverPage2InnerBox {
+        padding: 0px 36px !important;
+        gap: 0;
+    }
+
+    .CoverPage3TextBox {
+        gap: 0;
+        padding: 20px 0px;
+    }
+
+    .CoverPageTextBox1 {
+        padding: 5px 0px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .CoverPageTextBox2 {
+        padding: 5px 0px;
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    .CoverPageTextBox3 {
+        padding: 5px 0px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .Page2CardRow {
+        gap: 0;
+    }
+
+    .CardMainDiv {
+        box-shadow: 1px 1px 2px 1px rgb(218, 216, 216) !important;
+        margin: 20px 10px;
+        padding: 20px;
+        width: auto !important;
+    }
+
+    .CardMainDivStack {
+        gap: 0;
+    }
+
+    #BlackboardsDiv {
+        padding: 10px !important;
+    }
+
+    .CardH5Div {
+        font-size: 18px;
+        padding: 10px 0;
+        margin: 5px;
+        max-width: 138px;
+    }
+
+    .HorizontalDiv {
+        width: 95%;
+    }
+
+    .Page2CardParagraphText {
+        padding: 10px 0px;
+    }
+
+}

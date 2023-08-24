@@ -1,0 +1,317 @@
+/* Page1 CSS */
+
+
+
+
+#MainCoverContainer {
+    background-color: #26335D;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+.CoverPageImgCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#CoverImgContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 11.926% 4.001% 11.5% 4.023%;
+    flex-shrink: 0;
+}
+
+.CoverImgBox {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    position: relative;
+}
+
+#Coverimg1 {
+    position: absolute;
+    margin: 0 !important;
+    border-radius: 34.377px;
+    width: 66.3%;
+    flex-shrink: 0;
+
+}
+
+#Coverimg2 {
+    margin-left: 28.7%;
+    margin-bottom: 10.38%;
+    width: 71.94%;
+    flex-shrink: 0;
+    border-radius: 34.377px;
+    background: lightgray 50% #C4C4C4;
+}
+
+.CoverPageTextCol {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.CoverPageTextMainContainer {
+    display: flex;
+    width: 83.285% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-shrink: 0;
+    margin-right: 1.746% !important;
+}
+
+.CoverPageTextMainContainer h5 {
+    margin-bottom: 0;
+    color: #FF6551;
+
+    /* h5 */
+    font-size: 16px;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.1px;
+}
+
+.CoverPageTextMainContainer h1 {
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    color: #FFF;
+    /* h1 */
+    font-size: 58px;
+    line-height: 80px;
+    /* 137.931% */
+    letter-spacing: 0.2px;
+}
+
+.CoverPageTextMainContainer h4 {
+    margin-bottom: 0;
+    color: #FFF;
+    /* h4 */
+    font-size: 24px;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.2px;
+}
+
+.CoverPageTextBtnMainContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.746%;
+    width: 100%;
+}
+
+.GetQuoteNowBtn {
+    display: flex;
+    padding: 1.726% 3.451%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px !important;
+    border: 1px solid #FF6551 !important;
+    background-color: transparent !important;
+    color: #FF6551 !important;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 157.143% */
+    letter-spacing: 0.2px;
+}
+
+.GetQuoteNowBtn:hover {
+    color: #FFF !important;
+    background: #FF6551 !important;
+    border: 1px solid #FF6551 !important;
+}
+
+.LearnMoreBtn {
+    display: flex;
+    padding: 1.726% 3.451%;
+    border-radius: 5px !important;
+    border: 1px solid #FF6551 !important;
+    background-color: transparent !important;
+    color: #FF6551 !important;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+}
+
+.LearnMoreBtn:hover {
+    color: #FFF !important;
+    background-color: #FF6551 !important;
+    border: 1px solid #FF6551 !important;
+}
+
+
+
+@media screen and (max-width: 480px) and (min-width:320px) {
+
+    /* Page 1 Media */
+
+
+    #MainCoverContainer {
+        padding: 20px 0px !important;
+    }
+
+    .CoverMainPageRow {
+        width: 100%;
+        padding: 0px 12px;
+        margin: 0px !important;
+        display: inline-block !important;
+    }
+
+    .CoverPageTextMainContainer {
+        gap: 5px;
+        width: 95% !important;
+        margin-right: 0 !important;
+        padding: 5px 5px !important;
+    }
+
+    .CoverPageTextMainContainer h1 {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    .CoverPageTextMainContainer h4 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .CoverPageTextMainContainer h5 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .CoverPageTextCol {
+        align-items: flex-start;
+        /* padding-left: 20px; */
+        padding: 0% !important;
+    }
+
+    .GetQuoteNowBtn {
+        padding: 5px;
+        margin: 3px 2px 0 0;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .LearnMoreBtn {
+        padding: 5px;
+        margin: 3px 2px 0 0;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    #CoverImgContainer {
+        padding: 8px 0px !important;
+    }
+
+    .CoverPageImgCol {
+        padding: 0% !important;
+    }
+
+    .CoverImgBox {
+        margin: 10px 0px;
+    }
+
+    #Coverimg1 {
+        border-radius: 6% !important;
+    }
+
+    #Coverimg2 {
+        border-radius: 6% !important;
+    }
+
+}
+
+@media screen and (max-width: 1023px) and (min-width:600px) {
+
+    /* Cover Page Media @ 768px */
+
+
+
+    #MainCoverContainer {
+        padding: 30px 0px;
+    }
+
+    .CoverMainPageRow {
+        margin: 0px 24px !important;
+    }
+
+    .CoverPageTextCol {
+        gap: 0;
+        justify-content: flex-start !important;
+        align-items: flex-start;
+    }
+
+    .CoverPageTextMainContainer {
+        gap: 0;
+        margin: 0 !important;
+        width: 100% !important;
+    }
+
+    .CoverPageTextMainContainer h5 {
+        font-size: 14px;
+        font-weight: normal;
+        padding: 5px 0px;
+        line-height: 1.5;
+    }
+
+    .CoverPageTextMainContainer h1 {
+        font-size: 30px;
+        font-weight: normal;
+        padding: 5px 0px;
+        line-height: 1.5;
+    }
+
+    .CoverPageTextMainContainer h4 {
+        font-size: 14px;
+        font-weight: normal;
+        padding: 5px 0px;
+        line-height: 1.5;
+    }
+
+    .CoverPageTextBtnMainContainer {
+        padding: 5px 0px;
+        line-height: 1.5;
+        gap: 10px;
+    }
+
+    .GetQuoteNowBtn {
+        padding: 5px 10px !important;
+        line-height: 1.5 !important;
+        font-weight: normal !important;
+        line-height: 1.5 !important;
+    }
+
+    .LearnMoreBtn {
+        padding: 5px 10px !important;
+        line-height: 1.5 !important;
+        font-weight: normal !important;
+        line-height: 1.5 !important;
+    }
+
+    #CoverImgContainer {
+        padding: 0 !important;
+    }
+
+    #Coverimg1 {
+        width: 65.3% !important;
+        border-radius: 0;
+    }
+
+    #Coverimg2 {
+        width: 69.94% !important;
+        border-radius: 0 !important;
+    }
+
+}

@@ -1,0 +1,228 @@
+/* Page 7 CSS */
+
+
+
+.Page7OuterBox {
+    display: flex;
+    width: 100%;
+    height: 41.3%;
+    padding: 0% 13.5425% 0% 13.542%;
+    justify-content: center;
+    align-items: center;
+    background: #26335D;
+}
+
+.MainPage7Div {
+    display: flex;
+    flex-direction: column;
+    padding: 15.24% 0% 15.24% 0%;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 80px;
+}
+
+.MainPage7Text {
+    display: flex;
+    width: 47.9875%;
+    /* width: auto; */
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.MainPage7TextH6 {
+    color: #FF6551;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    /* h6 */
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 171.429% */
+    letter-spacing: 0.2px;
+}
+
+.MainPage7TextH3 {
+    color: #FFF;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    /* h2 */
+    font-size: 40px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 125% */
+    letter-spacing: 0.2px;
+}
+
+.MainPage7TextParagraph {
+    color: #FFF;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    /* paragraph */
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 142.857% */
+    letter-spacing: 0.2px;
+}
+
+.Page7Form.input-group {
+    display: flex;
+    width: 65.525%;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+}
+
+#Forminputbox {
+    display: flex;
+    padding: 15px 0px 15px 20px;
+    align-items: center;
+    /* border-radius: 5px; */
+    border: 1px solid #E6E6E6;
+    background: #F9F9F9;
+}
+
+#button-addon2 {
+    display: flex;
+    /* width: 117px; */
+    height: 56px;
+    padding: 15px 22.5px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #E6E6E6;
+    background: #FF6551;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 200% */
+    letter-spacing: 0.2px;
+}
+
+
+
+
+
+@media screen and (max-width: 480px) and (min-width:320px) {
+
+
+    /* Page 7 Media */
+
+
+
+    .Page7OuterBox {
+        padding: 20px 0px;
+        line-height: 1.5;
+    }
+
+    .MainPage7Div {
+        padding: 0px 12px;
+        gap: 0;
+    }
+
+    .MainPage7Text {
+        width: 100%;
+        gap: 0;
+        line-height: 1.5;
+    }
+
+    .MainPage7TextH6 {
+        padding: 10px 0px;
+        font-size: 11px;
+        line-height: 1.5;
+    }
+
+    .MainPage7TextH3 {
+        padding: 5px 0px;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .MainPage7TextParagraph {
+        padding: 5px 0px;
+        font-size: 11px;
+        line-height: 1.5;
+    }
+
+    #Forminputbox {
+        padding: 5px;
+        margin: 20px 0px;
+        font-size: 10px;
+        line-height: 1.5;
+        box-shadow: none !important;
+        outline: none !important;
+    }
+
+    #button-addon2 {
+        padding: 5px;
+        margin: 20px 0px;
+        font-size: 11px;
+        height: 27px;
+        line-height: 1.5;
+    }
+
+}
+
+@media screen and (max-width: 1023px) and (min-width:600px) {
+
+    /* Page 7 Media @ 768px */
+
+
+    .Page7OuterBox {
+        padding: 30px 0px !important;
+    }
+
+    .MainPage7Div {
+        padding: 20px 36px !important;
+        gap: 0;
+    }
+
+    .MainPage7Text {
+        width: 60%;
+        gap: 0;
+    }
+
+    .MainPage7TextH6 {
+        padding: 10px 0px !important;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .MainPage7TextH3 {
+        padding: 10px 0px !important;
+        font-size: 25px;
+        line-height: 1.5;
+    }
+
+    .MainPage7TextParagraph {
+        padding: 10px 0px !important;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .Page7Form.input-group {
+        margin: 25px 0px;
+    }
+
+    #Forminputbox {
+        padding: 10px;
+    }
+
+    #button-addon2 {
+        height: 46px;
+    }
+
+}

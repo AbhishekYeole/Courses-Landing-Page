@@ -1,0 +1,500 @@
+/* Page 5 CSS */
+
+.CoverPage5OuterBox {
+    padding: 0% 13.542% !important;
+    margin: 0px 0px !important;
+    background-color: #FFF;
+    width: auto;
+    height: auto;
+}
+
+.MainPage5Div {
+    display: flex;
+    width: 100%;
+    padding: 15.2385% 0%;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.Card5OuterContainer {
+    display: flex;
+    padding: 29px 1.05% 20px 0.6666%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    /* accentued-drop-shadow */
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+#Card5MiddleContainer {
+    position: relative;
+}
+
+.Card5MiddleNewLogo {
+    display: inline-flex;
+    padding: 29px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 52px;
+    background: #E77C40;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 80%;
+    bottom: 90.3%;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.Card5MiddleNewLogo h3 {
+    color: #FFF;
+    text-align: center;
+    width: 57px;
+    height: auto;
+    margin-bottom: 0;
+
+    /* h3 */
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+    /* 133.333% */
+    letter-spacing: 0.1px;
+}
+
+.Page5CardMainDiv {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.87%;
+
+}
+
+.Card5Container {
+    display: flex;
+    padding: 50px 12.82%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px;
+}
+
+.Card5IconBox {
+    display: flex;
+    height: 96px;
+    padding: 24px 23px 24px 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    background: #2435A1;
+}
+
+.Card5IconImg {
+    width: 48px;
+    height: 48px;
+}
+
+.Card5Row2 {
+    color: #252B42;
+    width: 64px;
+    height: auto;
+    margin-bottom: 0;
+
+    /* h3 */
+    font-size: 24px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 133.333% */
+    letter-spacing: 0.1px;
+}
+
+.CardRow3 {
+    color: #737373;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+
+    /* h6 */
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 171.429% */
+    letter-spacing: 0.2px;
+}
+
+.Card5PriceBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Card5PriceInNumberRow {
+    color: #FF6551;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+
+    /* h2 */
+    font-size: 40px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 125% */
+    letter-spacing: 0.2px;
+}
+
+.Card5PerMonthRow {
+    color: #8EC2F2;
+    height: auto;
+    width: auto;
+    margin-bottom: 0;
+    /* h6 */
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 171.429% */
+    letter-spacing: 0.2px;
+}
+
+.Card5Row5 {
+    color: #737373;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    /* paragraph */
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 142.857% */
+    letter-spacing: 0.2px;
+}
+
+.Card5Btn {
+    display: flex;
+    padding: 15px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 5px;
+    background-color: #FF6551 !important;
+    border-color: #FF6551 !important;
+    width: 100%;
+}
+
+.Card5BottomPartBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: auto;
+    height: auto;
+}
+
+.Card5BottomPartRow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Card5BottomPartRowGreenImgBox {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 10px 8px 11px 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    background: #2DC071;
+}
+
+.Card5BottomPartRowGreyImgBox {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 10px 8px 11px 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    background: #BDBDBD;
+}
+
+.Card5BottomPartH6Text {
+    color: #252B42;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    /* h6 */
+    font-size: 13px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 171.429% */
+    letter-spacing: 0.2px;
+}
+
+
+
+@media screen and (max-width: 480px) and (min-width:320px) {
+
+    /* Page 5 Media */
+
+
+    .CoverPage5OuterBox {
+        padding: 20px 0px !important;
+    }
+
+    .MainPage5Div {
+        padding: 0px 12px;
+        gap: 10px;
+        height: auto;
+    }
+
+    .Page5CardMainDiv {
+        height: auto;
+    }
+
+    .CoverPage3TextBoxRow1 {
+        padding: 10px;
+        max-width: 500px;
+    }
+
+    .CoverPage3TextBox {
+        width: 100%;
+        gap: 0px;
+    }
+
+    .CoverPageTextBox1 {
+        padding: 5px 0px;
+        font-size: 12px;
+        margin: 0;
+        line-height: 1.5;
+    }
+
+    .CoverPageTextBox2 {
+        padding: 5px 0px;
+        font-size: 18px;
+        margin: 0;
+        line-height: 1.5;
+    }
+
+    .CoverPageTextBox3 {
+        padding: 5px 0px;
+        font-size: 10px;
+        margin: 0;
+        line-height: 1.5;
+        color: gray;
+    }
+
+    .Card5OuterContainer {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .Card5Container {
+        padding: 0;
+        margin: 0;
+        gap: 0;
+        width: 100%;
+    }
+
+    .Card5IconBox {
+        padding: 10px 10px;
+        border-radius: 55%;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .Card5IconImg {
+        width: 20px;
+        height: 20px;
+        line-height: 1.5;
+    }
+
+    .Card5Row2 {
+        padding: 15px 0;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .CardRow3 {
+        padding: 5px 0;
+        font-size: 12px;
+        color: gray;
+        line-height: 1.5;
+    }
+
+    .Card5PriceBox {
+        padding: 5px 0;
+        font-size: 23px;
+        line-height: 1.5;
+    }
+
+    .Card5PriceInNumberRow {
+        font-size: 23px;
+        line-height: 1.5;
+    }
+
+    .Card5PerMonthRow {
+        font-size: 12px;
+    }
+
+    .Card5Row5 {
+        padding: 10px 0;
+        margin: 0;
+        color: gray;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .Card5Btn {
+        padding: 8px 0px;
+        margin: 10px 0;
+        line-height: 1.5;
+    }
+
+    .Card5BottomPartBox {
+        gap: 5px;
+        display: flex;
+        padding: 10px 5px;
+        margin: 0;
+    }
+
+    .Card5BottomPartRow {
+        gap: 0px;
+    }
+
+    .Card5BottomPartRowGreenImgBox {
+        width: 19px;
+        height: 19px;
+        padding: 5px 10px;
+    }
+
+    .Card5BottomPartRowGreyImgBox {
+        width: 19px;
+        height: 19px;
+        padding: 5px 10px;
+    }
+
+    .Card5BottomPartH6Text {
+        font-size: 12px;
+        padding: 5px 5px;
+        line-height: 1.5;
+    }
+
+    .Card5MiddleNewLogo {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1023px) and (min-width:600px) {
+
+    /* Page 5 Media @ 768px */
+
+
+    .CoverPage5OuterBox {
+        padding: 30px 0px !important;
+    }
+
+    .MainPage5Div {
+        padding: 0px 36px !important;
+        gap: 0;
+        width: 100%;
+    }
+
+    .Page5CardMainDiv {
+        padding: 20px 0px !important;
+    }
+
+    .Card5OuterContainer {
+        /* box-shadow: 1px 1px 2px 1px rgb(218, 216, 216) !important; */
+        padding: 0 !important;
+
+        width: 600px;
+        height: 680px;
+    }
+
+    .Page5CarouselDiv {
+
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .Card5Container {
+        box-shadow: 1px 1px 2px 1px rgb(218, 216, 216) !important;
+        padding: 20px;
+        margin: 0px 10px;
+        margin-bottom: 10px;
+        gap: 0;
+    }
+
+    .Card5IconBox {
+        width: 62px;
+        height: 62px;
+        padding: 20px;
+    }
+
+    .Card5IconImg {
+        width: 36px;
+        height: 36px;
+    }
+
+    .Card5MiddleNewLogo {
+        position: absolute;
+        left: 66%;
+        bottom: 85%;
+    }
+
+    .Card5Row2 {
+        padding: 10px 0px;
+        line-height: 1.5;
+    }
+
+    .CardRow3 {
+        padding: 10px 0px;
+        line-height: 1.5;
+    }
+
+    .Card5PriceBox {
+        padding: 10px 0px;
+        line-height: 0;
+    }
+
+    .Card5Row5 {
+        padding: 10px 0px;
+        line-height: 1.5;
+    }
+
+    .Card5Btn {
+        margin: 10px 0px;
+    }
+
+    .Card5BottomPartBox {
+        gap: 0;
+        padding: 10px 0px;
+    }
+
+    .Card5BottomPartRow {
+        padding: 5px 0px;
+        gap: 15px;
+    }
+
+    .Card5BottomPartRowGreenImgBox {
+        width: 26px;
+        height: 26px;
+    }
+
+    .Card5BottomPartH6Text {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .Card5BottomPartRowGreyImgBox {
+        width: 26px;
+        height: 26px;
+    }
+
+}

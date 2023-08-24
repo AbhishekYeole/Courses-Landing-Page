@@ -1,0 +1,179 @@
+/* Page 6 CSS */
+
+
+.MainPage6Div {
+    display: flex;
+    width: 100%;
+    padding: 15.24% 0%;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 96px;
+}
+
+.Page6RowMainContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 2.86%;
+    width: 100%;
+}
+
+.Page6CardMainContainer {
+    display: flex;
+    padding: 25px 2.381% 0px 2.381%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    background: #FFF;
+    width: 100%;
+    height: auto;
+}
+
+.Page6CardImgBox {
+    width: 27.828%;
+    height: 36.16%;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.Page6CardTextBox {
+    display: flex;
+    padding: 6.523%;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    align-self: stretch;
+    width: 100%;
+    height: auto;
+}
+
+.Page6CardTextParagraph {
+    color: #737373;
+    text-align: center;
+    width: 75.004%;
+    height: auto;
+    margin-bottom: 0;
+    /* paragraph */
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 142.857% */
+    letter-spacing: 0.2px;
+}
+
+.Page6CardStarRatingBox {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    width: auto;
+    height: auto;
+}
+
+.Page6CardBottomBox {
+    display: flex;
+    padding: 0px 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: auto;
+    height: auto;
+}
+
+.Page6CardBottomH5 {
+    color: #252B42;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    /* h5 */
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.1px;
+}
+
+.Page6CardBottomH6 {
+    color: #737373;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    /* h6 */
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 171.429% */
+    letter-spacing: 0.2px;
+}
+
+
+
+@media screen and (max-width: 480px) and (min-width:320px) {
+
+    /* Page 6 Media */
+
+
+    .MainPage6Div {
+        padding: 0px 12px !important;
+        gap: 0;
+    }
+
+    .Page6CardMainContainer {
+        padding: 10px 0px;
+    }
+
+    /* .Page6RowMainContainer {
+        display: block !important;
+    } */
+
+    .Page6CardImgBox {
+        margin: 10px 0px;
+    }
+
+    .Page6CardTextBox {
+        padding: 0;
+        gap: 0;
+    }
+
+    .Page6CardTextParagraph {
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .Page6CardBottomH5 {
+        padding: 5px 0px;
+    }
+
+    .Page6CardBottomH6 {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1023px) and (min-width:600px) {
+
+    /* Page 6 Media @ 768px */
+
+
+    .MainPage6Div {
+        padding: 0px 36px !important;
+        gap: 0;
+    }
+
+    .Page6CardMainContainer {
+        padding: 25px;
+    }
+
+    .Page6RowMainContainer {
+        display: block !important;
+    }
+
+    .Page6CardImgBox {
+        width: 20%;
+    }
+
+}

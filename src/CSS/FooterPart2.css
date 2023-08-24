@@ -1,0 +1,144 @@
+/* Footer Part2 CSS */
+
+.FooterPart2OuterContainer {
+    display: flex;
+    /* height: 74px; */
+    padding: 0 13.542%;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    background: #FAFAFA;
+}
+
+.FooterPart2InnerContainer {
+    display: flex;
+    width: 100%;
+    padding: 2.381% 0;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.FooterPart2TextContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.FooterPart2TextInnerContainer {
+    display: flex;
+    width: 57.143%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.FooterPart2H6Text h6 {
+    color: #737373;
+    margin-bottom: 0;
+    width: auto;
+    height: auto;
+    /* h6 */
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 171.429% */
+    letter-spacing: 0.2px;
+}
+
+.FooterPart2LastOuterContainer {
+    display: flex;
+    width: 22.4762%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FooterPart2LastInnerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16.6%;
+    width: 47.46%;
+}
+
+#FacebookLogo {
+    width: 58%;
+}
+
+#InstagramLogo {
+    width: 58%;
+}
+
+#TwitterLogo {
+    width: 55%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) and (min-width:320px) {
+
+    /* Footer Part2 Media  */
+
+
+    .FooterPart2OuterContainer {
+        padding: 20px 0px;
+        height: auto;
+    }
+
+    .FooterPart2InnerContainer {
+        padding: 0px 24px;
+    }
+
+    .FooterPart2TextInnerContainer {
+        width: 100%;
+
+    }
+
+    .FooterPart2TextInnerContainer h6 {
+        font-size: 11px;
+        line-height: 1.5;
+        color: gray;
+    }
+
+    .FooterPart2TextContainer {
+        gap: 20px;
+        display: block;
+    }
+
+    .FooterPart2LastOuterContainer {
+        width: 36%;
+        align-items: flex-start;
+    }
+
+    .FooterPart2LastInnerContainer {
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 8px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1023px) and (min-width:600px) {
+
+    /* Footer Part2 Media @768 px */
+
+
+    .FooterPart2OuterContainer {
+        padding: 20px;
+        height: auto !important;
+    }
+
+    .FooterPart2InnerContainer {
+        padding: 0;
+    }
+
+    .FooterPart2TextContainer {
+        gap: 0 !important;
+        justify-content: space-between;
+    }
+
+}

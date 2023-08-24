@@ -1,0 +1,267 @@
+/* NavBar CSS */
+
+
+#MainNavBarContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #26335D !important;
+    border: none;
+}
+
+.navbar-brand {
+    display: flex;
+    margin-left: 50px !important;
+    font-size: 48px !important;
+    color: white !important;
+}
+
+.navbar-nav {
+    gap: 20px !important;
+}
+
+.nav-link {
+    font-size: 20px !important;
+    color: white !important;
+}
+
+.container-fluid {
+    gap: 40px !important;
+}
+
+#NavBarContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    height: auto;
+    padding: 1.0595% 12px;
+    flex-shrink: 0;
+}
+
+.NavBrandLogoCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavBrandLogoH3 {
+    margin-bottom: 0;
+    width: auto;
+    height: auto;
+    color: #FFF;
+    /* h3 */
+    font-size: 24px;
+    line-height: 1.5;
+    /* 133.333% */
+    letter-spacing: 0.1px;
+}
+
+.NavMenuCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+}
+
+.MenuContainer {
+    flex-wrap: nowrap !important;
+}
+
+.MenuContainer h5 {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #FFF;
+    text-align: center;
+    /* link */
+    font-size: 14px;
+    line-height: 1.5;
+    /* 171.429% */
+    letter-spacing: 0.2px;
+}
+
+.NavBtnCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.RightNavSectionContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 6%;
+    width: 280px;
+    justify-content: start;
+    align-items: center;
+}
+
+.anticon svg {
+    width: 38px !important;
+    height: 38px !important;
+    color: white !important;
+}
+
+.RightNavSectionContainer h5 {
+    margin-bottom: 0;
+    color: #FFF;
+    text-align: right;
+
+    /* btn-text */
+    font-size: 14px;
+    line-height: 1.5;
+    /* 157.143% */
+    letter-spacing: 0.2px;
+}
+
+.NavLastBtn {
+    background: transparent !important;
+    color: #FF6551 !important;
+    gap: 0 !important;
+    display: flex !important;
+    width: auto;
+    height: auto;
+    padding: 2.124% 4.247% !important;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+    border: solid #FF6551 !important;
+}
+
+.NavLastBtn:hover {
+
+    background-color: #FF6551 !important;
+    border: 1px solid #FF6551 !important;
+    color: white !important;
+}
+
+#NavLastBtnLogin {
+    background: transparent !important;
+    color: #FF6551;
+    gap: 0 !important;
+    border: solid #FF6551 !important;
+}
+
+#NavLastBtnLogin:hover {
+    background-color: #FF6551 !important;
+    color: white !important;
+    gap: 0 !important;
+}
+
+@media screen and (max-width: 480px) and (min-width:320px) {
+
+    /* NavBar Media */
+
+    .navbar {
+        background-color: #26335D !important;
+        padding: 8px 10px !important;
+    }
+
+    .navbar-brand {
+        color: #FFF !important;
+        margin-left: 0 !important;
+        font-size: 26px !important;
+    }
+
+    .NavLastBtn {
+        gap: 3px;
+        font-size: 12px !important;
+        line-height: 1.5;
+        padding: 5px 10px !important;
+    }
+
+    .navbar-toggler {
+        border: none !important;
+        outline: 0 !important;
+        box-shadow: none !important;
+    }
+
+    .nav-link {
+        color: white !important;
+    }
+
+    .RightNavSectionContainer {
+        justify-content: start;
+    }
+
+    .anticon svg {
+        width: 26px !important;
+        height: 26px !important;
+        color: white !important;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url(../components/NavBar/icons8-hamburger-menu-30.png) !important;
+    }
+
+    #JoinUsBtn {
+        width: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1023px) and (min-width:600px) {
+
+    /* NavBar Media @ 768px */
+
+    #NavBarContainer {
+        padding: 10px 12px !important;
+    }
+
+    .NavLastBtn {
+        padding: 5px 10px !important;
+        font-size: 14px !important;
+        line-height: 1.5 !important;
+        font-weight: normal !important;
+    }
+
+    .navbar {
+        background-color: #26335D !important;
+        padding: 10px 30px !important;
+    }
+
+    .navbar-brand {
+        color: #FFF !important;
+        margin-left: 0 !important;
+        font-size: 42px !important;
+    }
+
+    .NavLastBtn {
+        gap: 3px;
+        font-size: 12px !important;
+        line-height: 1.5;
+        padding: 5px 10px !important;
+    }
+
+    .navbar-toggler {
+        border: none !important;
+        outline: 0 !important;
+        box-shadow: none !important;
+    }
+
+    .nav-link {
+        color: white !important;
+    }
+
+    .RightNavSectionContainer {
+        justify-content: start;
+        gap: 2%;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url(../components/NavBar/icons8-hamburger-menu-30.png) !important;
+    }
+
+    #JoinUsBtn {
+        width: 10px;
+    }
+
+}

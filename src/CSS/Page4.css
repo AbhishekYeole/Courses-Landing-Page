@@ -1,0 +1,197 @@
+/* Page 4 CSS */
+
+
+.CoverPage4OuterBox {
+    padding: 0px 13.542% !important;
+    margin: 0px 0px !important;
+    background-color: #26335D;
+    width: auto;
+    height: auto;
+}
+
+.MainPage4Div {
+    padding: 15.2381% 0%;
+    display: flex;
+    justify-content: space-between !important;
+    width: 100%;
+    align-items: center;
+}
+
+#Page4Image {
+    width: 51.810%;
+    height: 56.403%;
+}
+
+.Page4TextOuterBox {
+    display: flex;
+    width: 36.286%;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    flex-shrink: 0;
+}
+
+.Page4TextBoxLearnMoreBox {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    gap: 10px;
+}
+
+.Page4TextBoxLearnMoreH6 {
+    color: #FF6551;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 171.429% */
+    letter-spacing: 0.2px;
+}
+
+.FixedDiv {
+    width: 24.672%;
+    height: 5px;
+    background-color: #E74040;
+}
+
+.Page4TextBoxH2Box {
+    color: #FFF;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+
+    /* h2 */
+    font-size: 40px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 125% */
+    letter-spacing: 0.2px;
+    margin-bottom: 0px;
+}
+
+.Page4TextBoxParagraph {
+    color: #FFF;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.5;
+    /* 142.857% */
+    letter-spacing: 0.2px;
+}
+
+
+
+@media screen and (max-width: 480px) and (min-width:320px) {
+
+    /* Media Page4 */
+
+    .CoverPage4OuterBox {
+        padding: 20px 0 !important;
+    }
+
+    .MainPage4Div {
+        padding: 0px 12px !important;
+        /* align-items: flex-start; */
+    }
+
+    #Page4Image {
+        width: 49.5% !important;
+    }
+
+    .Page4TextOuterBox {
+        width: 48% !important;
+        gap: 4px;
+        padding-left: 10px !important;
+    }
+
+    .FixedDiv {
+        height: 2px;
+        width: 70%;
+    }
+
+    .Page4TextBoxH2Box {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .Page4TextBoxParagraph {
+        font-size: 9px;
+        line-height: 1.5;
+    }
+
+    .Page4TextBoxLearnMoreBox {
+        gap: 4px;
+    }
+
+    .Page4TextBoxLearnMoreH6 {
+        font-size: 8px;
+        line-height: 1.5;
+    }
+
+    .Page4TextBoxLearnMoreBox img {
+        width: 5px;
+        height: 12px;
+    }
+
+}
+
+@media screen and (max-width: 1023px) and (min-width:600px) {
+
+    /* Page 4 Media @768px */
+
+
+    .CoverPage4OuterBox {
+        padding: 30px 0px !important;
+    }
+
+    .MainPage4Div {
+        padding: 0px 36px !important;
+        justify-content: flex-start !important;
+    }
+
+    #Page4Image {
+        width: 50% !important;
+    }
+
+    .Page4TextOuterBox {
+        padding-left: 20px;
+        display: block !important;
+        width: 50% !important;
+    }
+
+    .FixedDiv {
+        width: 50%;
+        height: 4px;
+    }
+
+    .Page4TextBoxH2Box {
+        font-size: 25px;
+        line-height: 1.5;
+        padding: 5px 0px;
+    }
+
+    .Page4TextBoxParagraph {
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 5px 0px;
+    }
+
+    .Page4TextBoxLearnMoreBox {
+        gap: 5px;
+        padding: 5px 0px;
+    }
+
+    #Page4ArrowIconimg {
+        width: 8px;
+        height: 12px;
+    }
+
+}
