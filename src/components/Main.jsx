@@ -25,7 +25,7 @@ import MainFooterPart2 from "./FooterPart2/MainFooterPart2";
 
 function MainComponent(props) {
   return (
-    <div>
+    <div className="MainBodyDiv">
       <NavBar
         cartObject={props.cartObject}
         addQuantity={props.addQuantity}

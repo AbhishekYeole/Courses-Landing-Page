@@ -10,24 +10,6 @@ import BtnAddedIcon from "./SourcesPage3/icons8-add-shopping-cart-80 (1).png";
 import BtnAddIcon from "./SourcesPage3/icons8-add-shopping-cart-80.png";
 
 function Page3CardComponent(props) {
-  // const cartMap =
-  //   localStorage.getItem("cartObject") !== null
-  //     ? getCartObjectFromStroge()
-  //     : Page3Object.map((obj) => [obj.id, obj.cartQuantity]);
-
-  // const [cartObject, setCartObject] = useState(new Map(cartMap));
-
-  // function storeCartObject() {
-  //   const json = JSON.stringify(Object.fromEntries(cartObject));
-
-  //   localStorage.setItem("cartObject", json);
-  // }
-
-  // function getCartObjectFromStroge() {
-  //   const json = localStorage.getItem("cartObject");
-  //   return new Map(Object.entries(JSON.parse(json)));
-  // }
-
   const cartMap =
     localStorage.getItem("favoriteObject") !== null
       ? getCartObjectFromStroge()
@@ -50,6 +32,7 @@ function Page3CardComponent(props) {
   function favoriteClickHandle(id) {
     const updatedMap = new Map(
       favoriteObject.set(id, favoriteObject.get(id) === true ? false : true)
+      // favoriteObject.set(id, favoriteObject.get(id) === false ? true : false)
     );
 
     setFavoriteObject(updatedMap);

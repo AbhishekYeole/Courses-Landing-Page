@@ -91,6 +91,7 @@ function App() {
           />
         </Routes>
       </Router>
+      {/* <MainFooterPart2 /> */}
     </div>
   );
 }

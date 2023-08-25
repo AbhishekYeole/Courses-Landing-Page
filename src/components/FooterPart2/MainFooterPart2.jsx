@@ -25,7 +25,6 @@ function MainFooterPart2() {
               </div>
             </div>
           </div>
-          <hr style={{ color: "black", width: "100%" }} />
         </div>
       </div>
     );
