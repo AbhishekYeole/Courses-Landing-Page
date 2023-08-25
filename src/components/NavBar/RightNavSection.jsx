@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import ButtonSection from "../../Resources/ButtonSection";
 import { Badge } from "antd";
 import { ShoppingCartOutlined } from "@ant-design/icons";
@@ -23,7 +22,6 @@ function RightNavSection(props) {
       <Badge size="default" count={totalQuantity()}>
         <ShoppingCartOutlined
           onClick={() => {
-            console.log("cart Clickeddd");
             navigate("/cart");
           }}
         />
@@ -31,12 +29,7 @@ function RightNavSection(props) {
 
       <ButtonSection btnName="Login" class="NavLastBtn" Id="NavLastBtnLogin" />
 
-      <ButtonSection
-        btnName="Join US"
-        class="NavLastBtn"
-        // btnImg={NavArrowRight}
-        ImgId="JoinUsBtn"
-      />
+      <ButtonSection btnName="Join US" class="NavLastBtn" ImgId="JoinUsBtn" />
     </div>
   );
 }

@@ -1,10 +1,6 @@
 import React from "react";
-
 import "../../CSS/Form.css";
 import { Col, Container, Image } from "react-bootstrap";
-import FacebookLogo from "../FooterPart2/FacebookLogo.svg";
-import InstagramLogo from "../FooterPart2/InstagramLogo.svg";
-import TwitterLogo from "../FooterPart2/TwitterLogo.svg";
 import QuoteForm from "./QuoteForm";
 import NavBar from "../NavBar/NavBar";
 import MainFooterPart2 from "../FooterPart2/MainFooterPart2";
@@ -52,12 +48,6 @@ function NewForm(props) {
                 </div>
               </div>
             </div>
-
-            {/* <div className="QuoteFormSocialMediaIcon">
-              <img src={FacebookLogo} alt="" />
-              <img src={InstagramLogo} alt="" />
-              <img src={TwitterLogo} alt="" />
-            </div> */}
           </Col>
           <Col md={8} xs={12} className="QuoteFormCol2">
             <h1 className="QuoteFormCol2H1">Get Quote Now</h1>

@@ -23,9 +23,6 @@ function QuoteForm() {
   const onFinish = (values) => {
     console.log(values);
   };
-  // const onReset = () => {
-  //   form.resetFields();
-  // };
 
   return (
     <div className="QuoteFormOutBox">
@@ -116,9 +113,6 @@ function QuoteForm() {
           <Button type="primary" htmlType="submit">
             Submit
           </Button>
-          {/* <Button htmlType="button" onClick={onReset}>
-            Reset
-          </Button> */}
         </Form.Item>
       </Form>
     </div>

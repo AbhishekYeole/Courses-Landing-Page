@@ -52,7 +52,9 @@
 p {
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
     margin: 0;
 }
 
@@ -89,4 +91,39 @@ p {
     padding-right: 50px;
 }
 
-@media screen {}
+.CartCardTextH2 {
+    color: #FF6551
+}
+
+.CartCardPriceH4 {
+    color: #26335D;
+}
+
+.CartCardQuantityBtn {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+#CartCardTotalItemBox {
+    /* padding: 10px 0px !important; */
+}
+
+@media screen and (max-width: 480px) and (min-width:320px) {
+
+    table,
+    tr {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .CartInnerBox {
+        margin: 10px;
+    }
+
+    #CartCardTotalItemBox {
+        padding: 0;
+    }
+}

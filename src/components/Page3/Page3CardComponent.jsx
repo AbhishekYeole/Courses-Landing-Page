@@ -10,9 +10,42 @@ import BtnAddedIcon from "./SourcesPage3/icons8-add-shopping-cart-80 (1).png";
 import BtnAddIcon from "./SourcesPage3/icons8-add-shopping-cart-80.png";
 
 function Page3CardComponent(props) {
-  const [favoriteObject, setFavoriteObject] = useState(
-    new Map(Page3Object.map((obj) => [obj.id, obj.isFavorite]))
-  );
+  // const cartMap =
+  //   localStorage.getItem("cartObject") !== null
+  //     ? getCartObjectFromStroge()
+  //     : Page3Object.map((obj) => [obj.id, obj.cartQuantity]);
+
+  // const [cartObject, setCartObject] = useState(new Map(cartMap));
+
+  // function storeCartObject() {
+  //   const json = JSON.stringify(Object.fromEntries(cartObject));
+
+  //   localStorage.setItem("cartObject", json);
+  // }
+
+  // function getCartObjectFromStroge() {
+  //   const json = localStorage.getItem("cartObject");
+  //   return new Map(Object.entries(JSON.parse(json)));
+  // }
+
+  const cartMap =
+    localStorage.getItem("favoriteObject") !== null
+      ? getCartObjectFromStroge()
+      : Page3Object.map((obj) => [obj.id, obj.favoriteObject]);
+
+  const [favoriteObject, setFavoriteObject] = useState(new Map(cartMap));
+  // new Map(Page3Object.map((obj) => [obj.id, obj.isFavorite]))
+
+  function storeCartObject() {
+    const json = JSON.stringify(Object.fromEntries(favoriteObject));
+
+    localStorage.setItem("favoriteObject", json);
+  }
+
+  function getCartObjectFromStroge() {
+    const json = localStorage.getItem("favoriteObject");
+    return new Map(Object.entries(JSON.parse(json)));
+  }
 
   function favoriteClickHandle(id) {
     const updatedMap = new Map(
@@ -20,6 +53,7 @@ function Page3CardComponent(props) {
     );
 
     setFavoriteObject(updatedMap);
+    storeCartObject();
   }
 
   const mediaQueries = useMediaQueries({

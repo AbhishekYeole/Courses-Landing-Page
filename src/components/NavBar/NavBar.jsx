@@ -1,4 +1,3 @@
-import React from "react";
 import { RightNavSection } from "./RightNavSection";
 import { Col, Container } from "react-bootstrap";
 import { Nav, Navbar } from "react-bootstrap";
@@ -55,6 +54,6 @@ function NavBar(props) {
       </Container>
     </Navbar>
   );
-} 
+}
 
 export default NavBar;

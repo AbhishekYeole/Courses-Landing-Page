@@ -46,98 +46,18 @@ function Page6Row() {
 
   return mediaQueries.mobile ? (
     <div className="Page6RowMainContainer">
-      {/* <Carousel>
-        <Carousel.Item>
-          <Page6Card
-            img={Card6Img1}
-            about="Slate helps you see how many more days you need to work to reach your financial goal for the month and year."
-            name="Regina Miles"
-            designation="Designer"
-          />
-        </Carousel.Item>
-
-        <Carousel.Item>
-          <Page6Card
-            img={Card6Img2}
-            about="Slate helps you see how many more days you need to work to reach your financial goal for the month and year."
-            name="Regina Miles"
-            designation="Designer"
-          />
-        </Carousel.Item>
-      </Carousel> */}
-
       <Carousel>
         {Page6Object.map(CreateEntryPage6, { isMobile: true })}
       </Carousel>
-      {/* <Carousel>{CreateEntryPage6(Page6Object[0], true)}</Carousel> */}
     </div>
-  ) : //   {
-  //   for(int i = 0 ; i+1 < arr.length ; i+=2){
-
-  //     <Carousel.Item>
-  //     <Page6Card
-  //       key={arr[i].id}
-  //       img={ObjData.Img}
-  //       review={ObjData.Review}
-  //       name={ObjData.Name}
-  //       designation={ObjData.Occupation}
-  //     />
-  //     </Carousel.Item>
-
-  // <Carousel.Item>
-  //     <Page6Card
-  //       key={arr[i+1].id}
-  //       img={ObjData.Img}
-  //       review={ObjData.Review}
-  //       name={ObjData.Name}
-  //       designation={ObjData.Occupation}
-  //     />
-  //   </Carousel.Item>
-  //     }
-  //   }
-
-  mediaQueries.tablet ? (
+  ) : mediaQueries.tablet ? (
     <div className="Page6RowMainContainer">
-      {/* <Carousel>
-        <Carousel.Item>
-          <Page6Card
-            img={Card6Img1}
-            about="Slate helps you see how many more days you need to work to reach your financial goal for the month and year."
-            name="Regina Miles"
-            designation="Designer"
-          />
-        </Carousel.Item>
-
-        <Carousel.Item>
-          <Page6Card
-            img={Card6Img2}
-            about="Slate helps you see how many more days you need to work to reach your financial goal for the month and year."
-            name="Regina Miles"
-            designation="Designer"
-          />
-        </Carousel.Item>
-      </Carousel> */}
       <Carousel>
         {Page6Object.map(CreateEntryPage6, { isTablet: true })}
       </Carousel>
     </div>
   ) : (
     <div className="Page6RowMainContainer">
-      {/* <Page6Card
-          img={Card6Img1}
-          about="Slate helps you see how many more days you need to work to reach your financial goal for the month and year."
-          name="Regina Miles"
-          designation="Designer"
-        />
-
-        <Page6Card
-          img={Card6Img2}
-          about="Slate helps you see how many more days you need to work to reach your financial goal for the month and year."
-          name="Regina Miles"
-          designation="Designer"
-        /> */}
-
-      {/* {Page6Object.map(CreateEntryPage6, false)} */}
       {Page6Object.map(
         CreateEntryPage6,
         { isMobile: false },

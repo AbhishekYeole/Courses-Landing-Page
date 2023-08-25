@@ -8,10 +8,25 @@ import Page1GetQuoteBtn from "./components/Page1/Page1GetQuoteBtn";
 import CartComponent from "./components/NavBar/Cart";
 
 function App() {
-  const [cartObject, setCartObject] = useState(
-    new Map(Page3Object.map((obj) => [obj.id, obj.cartQuantity]))
-  );
-  console.log(cartObject);
+  // const [cartObject, setCartObject] = useState(new Map(Page3Object.map((obj) => [obj.id, obj.cartQuantity])));
+
+  const cartMap =
+    localStorage.getItem("cartObject") !== null
+      ? getCartObjectFromStroge()
+      : Page3Object.map((obj) => [obj.id, obj.cartQuantity]);
+
+  const [cartObject, setCartObject] = useState(new Map(cartMap));
+
+  function storeCartObject() {
+    const json = JSON.stringify(Object.fromEntries(cartObject));
+
+    localStorage.setItem("cartObject", json);
+  }
+
+  function getCartObjectFromStroge() {
+    const json = localStorage.getItem("cartObject");
+    return new Map(Object.entries(JSON.parse(json)));
+  }
 
   function addQuantity(id) {
     console.log("add");
@@ -19,6 +34,8 @@ function App() {
     const updatedMap = new Map(cartObject.set(id, cartObject.get(id) + 1));
 
     setCartObject(updatedMap);
+
+    storeCartObject();
   }
 
   function removeQuantity(id) {
@@ -27,21 +44,18 @@ function App() {
     const updatedMap = new Map(cartObject.set(id, cartObject.get(id) - 1));
 
     setCartObject(updatedMap);
+    storeCartObject();
+  }
+
+  function deleteProduct(id) {
+    const updatedMap = new Map(cartObject.set(id, 0));
+
+    setCartObject(updatedMap);
+    storeCartObject();
   }
 
   return (
     <div className="App">
-      {/* <NavBar />
-      <MainPage1 />
-      <MainPage2 />
-      <MainPage3 />
-      <MainPage4 />
-      <MainPage5 />
-      <MainPage6 />
-      <MainPage7 />
-      <FooterPage />
-      <MainFooterPart2 />
-      <QuoteForm /> */}
       <Router>
         <Routes>
           <Route
@@ -61,6 +75,7 @@ function App() {
                 cartObject={cartObject}
                 addQuantity={addQuantity}
                 removeQuantity={removeQuantity}
+                deleteProduct={deleteProduct}
               />
             }
           />
