@@ -28,6 +28,7 @@
     justify-items: center;
     align-items: center;
     background-color: lightgray;
+    padding: 20px 0px;
 }
 
 .QuoteFormOutBox {
@@ -40,6 +41,9 @@
     margin: 0 !important;
 }
 
+.ant-form {
+    padding-right: 25px;
+}
 .ant-btn {
     width: 100%;
     font-size: 18px;
@@ -126,5 +130,20 @@
 
     .ant-row {
         justify-content: center !important;
+    }
+}
+@media screen and (max-width: 1023px) and (min-width:601px) {
+
+    .QuoteFormOuterBox {
+        padding: 35px 20px !important;
+    }
+
+    .FormFooterCardRow {
+        gap: 15px;
+        padding-left: 5px;
+    }
+
+    .QuoteFormOutBox {
+        width: 450px !important;
     }
 }

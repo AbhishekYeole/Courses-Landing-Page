@@ -156,7 +156,7 @@
     gap: 0 !important;
 }
 
-@media screen and (max-width: 480px) and (min-width:320px) {
+@media screen and (max-width: 600px) and (min-width:320px) {
 
     /* NavBar Media */
 
@@ -208,7 +208,7 @@
 
 }
 
-@media screen and (max-width: 1023px) and (min-width:600px) {
+@media screen and (max-width: 1023px) and (min-width:601px) {
 
     /* NavBar Media @ 768px */
 
