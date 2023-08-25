@@ -54,14 +54,11 @@
     width: 57px;
     height: auto;
     margin-bottom: 0;
-
-    /* h3 */
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.5;
-    /* 133.333% */
     letter-spacing: 0.1px;
 }
 
@@ -102,12 +99,9 @@
     width: 64px;
     height: auto;
     margin-bottom: 0;
-
-    /* h3 */
     font-size: 24px;
     font-style: normal;
     line-height: 1.5;
-    /* 133.333% */
     letter-spacing: 0.1px;
 }
 
@@ -116,12 +110,9 @@
     width: auto;
     height: auto;
     margin-bottom: 0;
-
-    /* h6 */
     font-size: 14px;
     font-style: normal;
     line-height: 1.5;
-    /* 171.429% */
     letter-spacing: 0.2px;
 }
 
@@ -136,12 +127,9 @@
     width: auto;
     height: auto;
     margin-bottom: 0;
-
-    /* h2 */
     font-size: 40px;
     font-style: normal;
     line-height: 1.5;
-    /* 125% */
     letter-spacing: 0.2px;
 }
 
@@ -150,11 +138,9 @@
     height: auto;
     width: auto;
     margin-bottom: 0;
-    /* h6 */
     font-size: 14px;
     font-style: normal;
     line-height: 1.5;
-    /* 171.429% */
     letter-spacing: 0.2px;
 }
 
@@ -163,11 +149,9 @@
     width: auto;
     height: auto;
     margin-bottom: 0;
-    /* paragraph */
     font-size: 14px;
     font-style: normal;
     line-height: 1.5;
-    /* 142.857% */
     letter-spacing: 0.2px;
 }
 
@@ -226,11 +210,9 @@
     width: auto;
     height: auto;
     margin-bottom: 0;
-    /* h6 */
     font-size: 13px;
     font-style: normal;
     line-height: 1.5;
-    /* 171.429% */
     letter-spacing: 0.2px;
 }
 

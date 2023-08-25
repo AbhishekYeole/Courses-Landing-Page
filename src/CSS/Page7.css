@@ -26,7 +26,6 @@
 .MainPage7Text {
     display: flex;
     width: 47.9875%;
-    /* width: auto; */
     height: auto;
     flex-direction: column;
     align-items: center;
@@ -39,11 +38,9 @@
     width: auto;
     height: auto;
     margin-bottom: 0;
-    /* h6 */
     font-size: 14px;
     font-style: normal;
     line-height: 1.5;
-    /* 171.429% */
     letter-spacing: 0.2px;
 }
 
@@ -53,11 +50,9 @@
     width: auto;
     height: auto;
     margin-bottom: 0;
-    /* h2 */
     font-size: 40px;
     font-style: normal;
     line-height: 1.5;
-    /* 125% */
     letter-spacing: 0.2px;
 }
 
@@ -67,11 +62,9 @@
     width: auto;
     height: auto;
     margin-bottom: 0;
-    /* paragraph */
     font-size: 14px;
     font-style: normal;
     line-height: 1.5;
-    /* 142.857% */
     letter-spacing: 0.2px;
 }
 
@@ -87,14 +80,12 @@
     display: flex;
     padding: 15px 0px 15px 20px;
     align-items: center;
-    /* border-radius: 5px; */
     border: 1px solid #E6E6E6;
     background: #F9F9F9;
 }
 
 #button-addon2 {
     display: flex;
-    /* width: 117px; */
     height: 56px;
     padding: 15px 22.5px;
     justify-content: center;
@@ -108,7 +99,6 @@
     font-size: 14px;
     font-style: normal;
     line-height: 1.5;
-    /* 200% */
     letter-spacing: 0.2px;
 }
 
@@ -120,8 +110,6 @@
 
 
     /* Page 7 Media */
-
-
 
     .Page7OuterBox {
         padding: 20px 0px;

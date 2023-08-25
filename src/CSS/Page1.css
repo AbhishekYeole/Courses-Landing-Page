@@ -1,15 +1,12 @@
 /* Page1 CSS */
 
 
-
-
 #MainCoverContainer {
     background-color: #26335D;
     color: white;
     width: auto;
     height: 761px;
 }
-
 
 .CoverPageImgCol {
     display: flex;
@@ -74,11 +71,8 @@
 .CoverPageTextMainContainer h5 {
     margin-bottom: 0;
     color: #FF6551;
-
-    /* h5 */
     font-size: 16px;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.1px;
 }
 
@@ -87,20 +81,16 @@
     display: flex;
     flex-wrap: wrap;
     color: #FFF;
-    /* h1 */
     font-size: 58px;
     line-height: 80px;
-    /* 137.931% */
     letter-spacing: 0.2px;
 }
 
 .CoverPageTextMainContainer h4 {
     margin-bottom: 0;
     color: #FFF;
-    /* h4 */
     font-size: 24px;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.2px;
 }
 
@@ -124,7 +114,6 @@
     font-size: 14px;
     font-style: normal;
     line-height: 1.5;
-    /* 157.143% */
     letter-spacing: 0.2px;
 }
 
@@ -154,6 +143,7 @@
 
 
 
+@media screen and (max-width: 600px) and (min-width:481px) {}
 @media screen and (max-width: 480px) and (min-width:320px) {
 
     /* Page 1 Media */

@@ -5,7 +5,7 @@ import useMediaQueries from "media-queries-in-react";
 
 function NavBar(props) {
   const mediaQueries = useMediaQueries({
-    mobile: "screen and (max-width: 931px) and ( min-width: 320px )",
+    mobile: "screen and (max-width: 1023px) and ( min-width: 320px )",
   });
 
   return mediaQueries.mobile ? (

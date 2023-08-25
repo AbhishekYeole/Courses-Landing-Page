@@ -45,11 +45,9 @@
     width: auto;
     height: auto;
     margin-bottom: 0;
-
     font-size: 14px;
     font-style: normal;
     line-height: 1.5;
-    /* 171.429% */
     letter-spacing: 0.2px;
 }
 
@@ -64,12 +62,9 @@
     width: auto;
     height: auto;
     margin-bottom: 0;
-
-    /* h2 */
     font-size: 40px;
     font-style: normal;
     line-height: 1.5;
-    /* 125% */
     letter-spacing: 0.2px;
     margin-bottom: 0px;
 }
@@ -79,11 +74,9 @@
     width: auto;
     height: auto;
     margin-bottom: 0;
-
     font-size: 14px;
     font-style: normal;
     line-height: 1.5;
-    /* 142.857% */
     letter-spacing: 0.2px;
 }
 
@@ -99,7 +92,6 @@
 
     .MainPage4Div {
         padding: 0px 12px !important;
-        /* align-items: flex-start; */
     }
 
     #Page4Image {

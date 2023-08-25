@@ -35,7 +35,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     width: 100%;
     height: auto;
     padding: 1.0595% 12px;
@@ -54,10 +53,8 @@
     width: auto;
     height: auto;
     color: #FFF;
-    /* h3 */
     font-size: 24px;
     line-height: 1.5;
-    /* 133.333% */
     letter-spacing: 0.1px;
 }
 
@@ -82,10 +79,8 @@
     align-items: flex-start;
     color: #FFF;
     text-align: center;
-    /* link */
     font-size: 14px;
     line-height: 1.5;
-    /* 171.429% */
     letter-spacing: 0.2px;
 }
 
@@ -114,11 +109,8 @@
     margin-bottom: 0;
     color: #FFF;
     text-align: right;
-
-    /* btn-text */
     font-size: 14px;
     line-height: 1.5;
-    /* 157.143% */
     letter-spacing: 0.2px;
 }
 
@@ -133,7 +125,7 @@
     align-items: center;
     gap: 5px;
     border-radius: 5px;
-    border: solid #FF6551 !important;
+    border: 1px solid #FF6551 !important;
 }
 
 .NavLastBtn:hover {

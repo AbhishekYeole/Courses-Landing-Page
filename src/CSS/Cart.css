@@ -64,14 +64,6 @@ p {
     font-size: 18px;
 }
 
-/* .CartCardBtnBox {
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: flex-start !important;
-    margin: 0px 20px;
-    padding-top: 5px;
-} */
-
 .CartCardDeleteBtn {
     border: none;
     background-color: white;
@@ -116,7 +108,6 @@ p {
     tr {
         display: flex;
         flex-direction: column;
-
     }
 
     .CartInnerBox {

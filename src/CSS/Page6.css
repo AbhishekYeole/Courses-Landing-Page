@@ -6,7 +6,6 @@
     width: 100%;
     padding: 15.24% 0%;
     flex-direction: column;
-    /* align-items: center; */
     gap: 96px;
 }
 
@@ -53,11 +52,9 @@
     width: 75.004%;
     height: auto;
     margin-bottom: 0;
-    /* paragraph */
     font-size: 14px;
     font-style: normal;
     line-height: 1.5;
-    /* 142.857% */
     letter-spacing: 0.2px;
 }
 
@@ -85,11 +82,9 @@
     width: auto;
     height: auto;
     margin-bottom: 0;
-    /* h5 */
     font-size: 16px;
     font-style: normal;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.1px;
 }
 
@@ -99,11 +94,9 @@
     width: auto;
     height: auto;
     margin-bottom: 0;
-    /* h6 */
     font-size: 14px;
     font-style: normal;
     line-height: 1.5;
-    /* 171.429% */
     letter-spacing: 0.2px;
 }
 
@@ -122,10 +115,6 @@
     .Page6CardMainContainer {
         padding: 10px 0px;
     }
-
-    /* .Page6RowMainContainer {
-        display: block !important;
-    } */
 
     .Page6CardImgBox {
         margin: 10px 0px;
