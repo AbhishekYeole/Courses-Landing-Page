@@ -245,7 +245,7 @@
 
     .RightNavSectionContainer {
         justify-content: start;
-        gap: 2%;
+        gap: 4%;
     }
 
     .navbar-toggler-icon {

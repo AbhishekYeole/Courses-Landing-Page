@@ -13,7 +13,7 @@ function Page3CardComponent(props) {
   const cartMap =
     localStorage.getItem("favoriteObject") !== null
       ? getCartObjectFromStroge()
-      : Page3Object.map((obj) => [obj.id, obj.favoriteObject]);
+      : Page3Object.map((obj) => [obj.id, obj.isFavorite]);
 
   const [favoriteObject, setFavoriteObject] = useState(new Map(cartMap));
   // new Map(Page3Object.map((obj) => [obj.id, obj.isFavorite]))
