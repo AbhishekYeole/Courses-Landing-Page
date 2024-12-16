@@ -1,8 +1,11 @@
 import "../../CSS/Cart.css";
 import { Image, Table } from "react-bootstrap";
 import CartDeleteIcon from "./CartDeleteIcon.png";
+import { useContext } from "react";
+import noteContext from "../../context/noteContext";
 
 function CartCard(props) {
+  const a = useContext(noteContext);
   return (
     <>
       <Table responsive>
@@ -19,7 +22,7 @@ function CartCard(props) {
                 <button
                   className="CartCardQuantityBtn"
                   onClick={() => {
-                    props.removeQuantity(props.id);
+                    a.removeQuantity(props.id);
                   }}
                 >
                   -
@@ -28,7 +31,7 @@ function CartCard(props) {
                 <button
                   className="CartCardQuantityBtn"
                   onClick={() => {
-                    props.addQuantity(props.id);
+                    a.addQuantity(props.id);
                   }}
                 >
                   +
@@ -37,18 +40,10 @@ function CartCard(props) {
             </td>
             <td>
               <div className="CartCardBtnBox">
-                {/* <Popconfirm
-                  title="Delete the task"
-                  description="Are you sure to delete this task?"
-                  okText="Yes"
-                  cancelText="No"
-                >
-                  <Button danger>Delete</Button>
-                </Popconfirm> */}
                 <button
                   className="CartCardDeleteBtn"
                   onClick={() => {
-                    props.deleteProduct(props.id);
+                    a.deleteProduct(props.id);
                   }}
                 >
                   <Image src={CartDeleteIcon} id="DeleteIcon" />

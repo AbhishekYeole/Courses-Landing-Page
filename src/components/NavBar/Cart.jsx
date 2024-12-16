@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import "../../CSS/Cart.css";
 import NavBar from "./NavBar";
 import MainFooterPart2 from "../FooterPart2/MainFooterPart2";
 import CartCard from "./CartCard";
 import Page3Object from "../../Objects/Page3Object";
+import noteContext from "../../context/noteContext";
 
 function CartComponent(props) {
+  const a = useContext(noteContext);
   function CreateCartCard(objData) {
-    if (props.cartObject.get(objData.id) !== 0) {
+    if (a.cartObject.get(objData.id) !== 0) {
       return (
         <CartCard
           id={objData.id}
@@ -15,11 +17,7 @@ function CartComponent(props) {
           Heading={objData.ProductName}
           Discription={objData.ProductInfo}
           Price={objData.HighlitedPrice}
-          Quntity={props.cartObject.get(objData.id)}
-          cartObject={props.cartObject}
-          addQuantity={props.addQuantity}
-          removeQuantity={props.removeQuantity}
-          deleteProduct={props.deleteProduct}
+          Quntity={a.cartObject.get(objData.id)}
         />
       );
     }
@@ -28,8 +26,8 @@ function CartComponent(props) {
   function getTotalItems() {
     let sum = 0;
 
-    props.cartObject &&
-      props.cartObject.forEach((value) => {
+    a.cartObject &&
+      a.cartObject.forEach((value) => {
         sum += value;
       });
     console.log("sum  = " + sum);
@@ -39,11 +37,10 @@ function CartComponent(props) {
   function getTotalPrice() {
     let sum = 0;
     Page3Object.forEach((obj) => {
-      if (props.cartObject.get(obj.id) !== 0) {
+      if (a.cartObject.get(obj.id) !== 0) {
         console.log(Number(obj.HighlitedPrice.substring(1)));
         sum +=
-          Number(obj.HighlitedPrice.substring(1)) *
-          props.cartObject.get(obj.id);
+          Number(obj.HighlitedPrice.substring(1)) * a.cartObject.get(obj.id);
       }
     });
     console.log("sum  = " + sum);
@@ -52,11 +49,7 @@ function CartComponent(props) {
 
   return (
     <>
-      <NavBar
-        cartObject={props.cartObject}
-        addQuantity={props.addQuantity}
-        removeQuantity={props.removeQuantity}
-      />
+      <NavBar />
       <div className="CartOuterBox">
         <div className="CartInnerBox">
           {Page3Object.map(CreateCartCard)}

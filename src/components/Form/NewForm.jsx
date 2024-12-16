@@ -11,11 +11,7 @@ import FooterMessage from "../Footer/FooterMessage.svg";
 function NewForm(props) {
   return (
     <>
-      <NavBar
-        cartObject={props.cartObject}
-        addQuantity={props.addQuantity}
-        removeQuantity={props.removeQuantity}
-      />
+      <NavBar />
 
       <Container className="QuoteFormOuterBox fluid ">
         <Container className="QuoteFormInnerBox">

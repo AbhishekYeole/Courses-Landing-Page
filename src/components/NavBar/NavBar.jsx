@@ -3,7 +3,7 @@ import { Col, Container } from "react-bootstrap";
 import { Nav, Navbar } from "react-bootstrap";
 import useMediaQueries from "media-queries-in-react";
 
-function NavBar(props) {
+function NavBar() {
   const mediaQueries = useMediaQueries({
     mobile: "screen and (max-width: 1023px) and ( min-width: 320px )",
   });
@@ -20,11 +20,7 @@ function NavBar(props) {
           <Nav.Link href="#features">Pricing</Nav.Link>
           <Nav.Link href="#pricing">Contact</Nav.Link>
           <Col className="NavBtnCol">
-            <RightNavSection
-              cartObject={props.cartObject}
-              addQuantity={props.addQuantity}
-              removeQuantity={props.removeQuantity}
-            />
+            <RightNavSection />
           </Col>
         </Nav>
       </Navbar.Collapse>
@@ -45,11 +41,7 @@ function NavBar(props) {
             <Nav.Link href="#action1">Pricing</Nav.Link>
             <Nav.Link href="#action2">Contact</Nav.Link>
           </Nav>
-          <RightNavSection
-            cartObject={props.cartObject}
-            addQuantity={props.addQuantity}
-            removeQuantity={props.removeQuantity}
-          />
+          <RightNavSection />
         </Navbar.Collapse>
       </Container>
     </Navbar>

@@ -8,11 +8,7 @@ function MainPage3(props) {
       <div className="CoverPage3InnerBox">
         <Page3Text />
 
-        <Page3CardComponent
-          cartObject={props.cartObject}
-          addQuantity={props.addQuantity}
-          removeQuantity={props.removeQuantity}
-        />
+        <Page3CardComponent />
       </div>
     </div>
   );

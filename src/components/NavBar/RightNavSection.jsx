@@ -2,15 +2,19 @@ import ButtonSection from "../../Resources/ButtonSection";
 import { Badge } from "antd";
 import { ShoppingCartOutlined } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
+import { useContext } from "react";
+import noteContext from "../../context/noteContext";
 
-function RightNavSection(props) {
+function RightNavSection() {
+  const a = useContext(noteContext);
+
   let navigate = useNavigate();
 
   function totalQuantity() {
     let sum = 0;
 
-    props.cartObject &&
-      props.cartObject.forEach((value) => {
+    a.cartObject &&
+      a.cartObject.forEach((value) => {
         sum += value;
       });
     console.log("sum  = " + sum);

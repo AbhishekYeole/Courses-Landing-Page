@@ -1,9 +1,12 @@
 import { Image } from "react-bootstrap";
 import Page3BottomCard from "./Page3BottomCard";
+import { useContext } from "react";
+import noteContext from "../../context/noteContext";
 
 function Page3MainCard(props) {
+  const a = useContext(noteContext);
   return (
-    <div className="TextBoxRow2Col">
+    <div className="TextBoxRow2Col" style={props.contentStyle}>
       <Image className="Row2Col1Img" src={props.mainImg} alt="img" />
 
       <div className="Row2ColfloatImg">
@@ -27,8 +30,8 @@ function Page3MainCard(props) {
         <button
           className="Row2ColFloatBtn"
           onClick={() => {
-            if (props.cartObject.get(props.keyId) === 0) {
-              props.addQuantity(props.keyId);
+            if (a.cartObject.get(props.keyId) === 0) {
+              a.addQuantity(props.keyId);
             }
           }}
         >

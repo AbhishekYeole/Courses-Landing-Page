@@ -23,21 +23,13 @@ import MainPage7 from "./Page7/MainPage7";
 import FooterPage from "./Footer/FooterPage";
 import MainFooterPart2 from "./FooterPart2/MainFooterPart2";
 
-function MainComponent(props) {
+function MainComponent() {
   return (
     <div className="MainBodyDiv">
-      <NavBar
-        cartObject={props.cartObject}
-        addQuantity={props.addQuantity}
-        removeQuantity={props.removeQuantity}
-      />
+      <NavBar />
       <MainPage1 />
       <MainPage2 />
-      <MainPage3
-        cartObject={props.cartObject}
-        addQuantity={props.addQuantity}
-        removeQuantity={props.removeQuantity}
-      />
+      <MainPage3 />
       <MainPage4 />
       <MainPage5 />
       <MainPage6 />
